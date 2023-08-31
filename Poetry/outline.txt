@@ -1,0 +1,46 @@
+heading banner
+featured poem
+poems by category
+Interpretation
+about the poet
+about the poem
+about poetry
+
+
+https://i1.wp.com/websitethink.com/wp-content/uploads/2019/03/2.-org-min.jpg?resize=768%2C455&ssl=1
+https://image.freepik.com/free-psd/poetry-ad-banner-template_23-2148646832.jpg
+
+Quotes on poetry
+--------------------------------
+landing page
+top floating banner
+- breadcrumbs
+- search 
+- surprise me
+
+middle  top
+- quote of the day
+- right side
+	- browse by poem
+	- browse by author
+	- Poems and poetry
+	- browse by topic
+middle bottom
+- featured poem
+
+
+
+---------------------------------
+poem page
+
+side banner
+- about the author
+- about the poem 
+- interpretation
+- related
+- listen
+---------------------------------
+landing page
+- no poem information
+- beginning of poem only
+- 

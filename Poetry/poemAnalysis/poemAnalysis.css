@@ -1,0 +1,50 @@
+.poemTitle h6
+	{ margin:0	}
+
+.poemTitle h5
+	{ margin-bottom:0	}
+
+.poemAuthor h6:before
+	{ content:"by ";	}
+
+table	{
+	width:100%;
+	border-collapse:collapse;
+	margin-bottom:20px;
+	}
+
+th	{ font-family: 'Raleway', sans-serif; font-size: 1.5rem;line-height: 1.6;  letter-spacing: 0; } /*---based on h6--*/
+tr	{ font-family: 'Raleway', sans-serif; font-size: 1.3rem; line-height: 1.5;  letter-spacing: 0; }
+
+td, th	
+	{
+	font-family: 'Raleway', sans-serif;
+	text-align:left;
+	padding:5px;
+	border-bottom: 1px solid #2B2D42;
+	letter-spacing: 0.01rem;
+	}
+
+td b a:hover
+	{
+	color: #D80032;
+	}
+
+tr:hover td
+	{
+	background-color: #D80032;
+	}
+
+tr a:hover
+	{
+	color:white;
+	}
+
+#simpleTable tr:hover td
+	{
+	background-color: unset;
+	}
+
+#author
+	{	max-width:300px		}
+

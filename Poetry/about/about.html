@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>About</title>
+   <link rel="stylesheet" href="../poetry.css">
+   <link rel="stylesheet" href="./about.css">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+<!----------background---------->
+<div class="background">
+</div>
+<!----------background---------->
+<!----------container----------->
+<div class="container">
+	<!----------heading----------->
+	<div class="heading">
+		<div class="left">
+			<button id="b1"><a href="../Poetry.html">
+				Home
+			</a></button>
+			<button id="bm"><a href="./about.html">
+				About
+			</a></button>
+		</div>
+		<div class="right">
+			<button id="bm" onclick="openRandomPage()">
+				<a href=#>Surprise me!</a>
+			</button>
+			<input 	type="text" id="termsearch" 
+				onkeyup=	"searchfunc()" 
+				placeholder=	"Search title..." 
+				title=		"Search title"
+			>
+			<button class="material-symbols-outlined" id="search">
+				search </button>
+		</div>
+	</div>
+	<!----------END--------------->
+	<!----------webname----------->
+	<div class="webname">		<a href="../Poetry.html">
+		<h>Poetry Planet</h>	</a>
+		<div class="breadCrumbs">
+			<p12>
+			<a href="../Poetry.html">	Home	</a>
+			>
+			<a href="./about.html">		About	</a>
+			</p12>
+		</div>
+	</div>
+	<!----------END--------------->
+	<!----------main-------------->
+	<div class="main">
+		<!----------poem of the day------------>
+		<div class="mainleft">
+			<div class="mainleftTitle">
+				<h6>About Poetry Planet</h6>
+			</div>
+			<div id="contents">
+				<p15>
+Welcome to Poetry Planet, a website dedicated to celebrating and promoting poetry in all its forms. Here you will find a collection of poems from various genres, styles, and eras, as well as resources to help you improve your own writing skills. Whether you are a seasoned poet or a beginner, you will find something to inspire and challenge you on this site. You can also join our community of poetry lovers and share your thoughts and feedback on the poems you read. Poetry Planet is more than just a website, it is a platform for expressing yourself and connecting with others who share your passion for poetry.<br><br>
+				</p15>
+			</div>
+		</div>
+		<!----------END------------------------>
+		<!----------quote of the day----------->
+		<div class="mainright">
+			<div class="mainrighttop">
+				<button id="b1"><a href="./byPoem.html">
+					Browse by Poem
+				</a></button>
+				<button id="bm2"><a href="./byAuthor.html">
+					Browse by Author
+				</a></button>
+				<button id="b1"><a href="./byTopic.html">
+					Browse by Topic
+				</a></button>
+			</div>
+			<div class="mainrightquote">
+				<div class="mainrightTitle">
+					<h6>Other Topics</h6>
+				</div>
+				<div id="topics">
+					<hp6><a href="./aboutWhat is Poetry.html">
+						What is Poetry			</a><br>
+					<hp6><a href="../poems/History of Poetry.html">
+						History of Poetry		</a><br>
+					<hp6><a href="./aboutElements of Poetry.html">
+						Elements of Poetry		</a><br>
+					<a href="./aboutHow to Analyze Poems.html">
+						How to Analyze a Poem		</a><br>
+					<a href="./inMovies.html">
+						Poetry in Movies		</a></hp6>		
+				</div>
+			</div>
+		</div>
+		<!----------END------------------------>
+	</div>
+</div>
+<!----------container----------->
+
+<script src="../poems/surpriseMe.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+list.txt
+Quote (1).html
+Quote (10).html
+Quote (11).html
+Quote (12).html
+Quote (13).html
+Quote (14).html
+Quote (15).html
+Quote (16).html
+Quote (17).html
+Quote (2).html
+Quote (3).html
+Quote (4).html
+Quote (5).html
+Quote (6).html
+Quote (7).html
+Quote (8).html
+Quote (9).html
