@@ -1,18 +1,31 @@
-list.txt
-Quote (1).html
-Quote (10).html
-Quote (11).html
-Quote (12).html
-Quote (13).html
-Quote (14).html
-Quote (15).html
-Quote (16).html
-Quote (17).html
-Quote (2).html
-Quote (3).html
-Quote (4).html
-Quote (5).html
-Quote (6).html
-Quote (7).html
-Quote (8).html
-Quote (9).html
+list at least 20 quotes about poetry.
+
+Here are some quotes about poetry:
+
+1. "Poetry is the spontaneous overflow of powerful feelings: it takes its origin from emotion recollected in tranquility." - William Wordsworth¹
+2. "Poetry is the rhythmical creation of beauty in words." - Edgar Allan Poe¹
+3. "Poetry is not a turning loose of emotion, but an escape from emotion; it is not the expression of personality, but an escape from personality." - T.S. Eliot¹
+4. "Poetry is the language in which man explores his own amazement." - Christopher Fry¹
+5. "Poetry is the art of creating imaginary gardens with real toads." - Marianne Moore¹
+6. "Poetry is the journal of a sea animal living on land, wanting to fly in the air." - Carl Sandburg¹
+7. "Poetry is the opening and closing of a door, leaving those who look through to guess about what is seen during the moment." - Carl Sandburg¹
+8. "Poetry is an echo, asking a shadow to dance." - Carl Sandburg¹
+9. "Poetry is when an emotion has found its thought and the thought has found words." - Robert Frost³
+10. "Genuine poetry can communicate before it is understood." - T.S. Eliot³
+11. "A poet's work . . . to name the unnamable, to point at frauds, to take sides, start arguments, shape the world and stop it from going to sleep." - Salman Rushdie³
+12. "Poetry is just the evidence of life. If your life is burning well, poetry is just the ash." - Leonard Cohen³
+13. "Poetry is a way of taking life by the throat." - Robert Frost³
+14. "A good poem is a contribution to reality. The world is never the same once a good poem has been added to it." - Dylan Thomas³
+15. "The poet doesn't invent. He listens." - Jean Cocteau³
+16. "The poet is a liar who always speaks the truth." - Jean Cocteau³
+17. "A poet's autobiography is his poetry. Anything else can be only a footnote." - Yevgeny Yevtushenko³
+18. "A poet's work is to name the unnameable, to point at frauds, to take sides, start arguments, shape the world, and stop it going to sleep." - Salman Rushdie³
+19. "Poetry should... should strike the reader as a wording of his own highest thoughts, and appear almost a remembrance." - John Keats²
+20. "The true poet for me is a priest... As soon as he dons his priestly garb he must enter into contact with God." - Federico Garcia Lorca ²
+
+I hope you find these quotes inspiring!
+
+Source: Conversation with Bing, 9/4/2023
+(1) Poetry Quotes (19968 quotes) - Goodreads. https://www.goodreads.com/quotes/tag/poetry.
+(2) Poetry Quotes - BrainyQuote. https://www.brainyquote.com/topics/poetry-quotes.
+(3) 30 Poetry Quotes to Inspire You Every Day | Grammarly Blog. https://www.grammarly.com/blog/poetry-quotes/.

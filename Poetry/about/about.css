@@ -32,6 +32,7 @@ html	{overflow:auto;		}
 #sort:hover
 	{	color:#D80032;		}
 
+
 table	{
 	width:100%;
 	border-collapse:collapse;
@@ -59,6 +60,9 @@ tr a:hover
 	{
 	color:white;
 	}
+
+p15 a:hover
+	{	color:#D80032;		}
 
 #simpleTable tr:hover td
 	{
