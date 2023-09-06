@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Poetry</title>
+   <link rel="stylesheet" href="poetry.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!----------background---------->
+<div class="background">
+</div>
+<!----------background---------->
+<!----------container----------->
+<div class="container">
+	<!----------heading----------->
+	<div class="heading">
+		<div class="left">
+			<button id="b1"><a href="./Poetry.html">
+				Home
+			</a></button>
+			<button id="bm"><a href="./about/about.html">
+				About
+			</a></button>
+		</div>
+		<div class="right">
+			<button id="bm" onclick="openRandomPage()">
+				<a href=#>Surprise me!</a>
+			</button>
+			<iframe id="searchIframe" scrolling="no" src="search.html"></iframe>
+		</div>
+	</div>
+	<!----------END--------------->
+	<!----------webname----------->
+	<div class="webname">
+		<h>Ars Poetica</h>
+	</div>
+	<!----------END--------------->
+	<!----------main-------------->
+	<div class="main">
+		<!----------poem of the day------------>
+		<div class="mainleft">
+			<div class="mainleftTitle">
+				<h6>Poem of the day</h6>
+			</div>
+			<div class="mainleftPoem">
+				<iframe id="poemIframe"	scrolling="no"></iframe>
+			</div>
+		</div>
+		<!----------END------------------------>
+		<!----------quote of the day----------->
+		<div class="mainright">
+			<div class="mainrighttop">
+				<button id="b1"><a href="./about/byPoem.html">
+					Browse by Poem
+				</a></button>
+				<button id="bm2"><a href="./about/byAuthor.html">
+					Browse by Author
+				</a></button>
+				<button id="b1"><a href="./about/byTopic.html">
+					Browse by Topic
+				</a></button>
+			</div>
+			<div class="mainrightquote">
+				<div class="mainrightTitle">
+					<h6>Featured Quote</h6>
+				</div>
+
+				<iframe id="quoteIframe"></iframe>
+				
+			</div>
+		</div>
+		<!----------END------------------------>
+	</div>
+</div>
+<!----------container----------->
+
+<script src="poetry.js"></script>
+
+</body>
+</html>
