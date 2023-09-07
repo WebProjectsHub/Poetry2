@@ -58,6 +58,7 @@ function sortTable(n) {
 //--featured poem--------------*//
 var urls2 = [
 	"./featured/Do Not Go Gentle Into That Good Night.html",
+	"./featured/If.html",
 	"./featured/Into the Fray.html",
 	"./featured/The Road Not Taken.html", 
 	"./featured/Mad Girl's Love Song.html",
