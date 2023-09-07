@@ -62,6 +62,7 @@ var urls2 = [
 	"./featured/Into the Fray.html",
 	"./featured/The Road Not Taken.html", 
 	"./featured/Mad Girl's Love Song.html",
+	"./featured/The Journey.html",
 	"./featured/The Visitor.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
@@ -103,8 +104,10 @@ var urls3 =
 	[
 	"./poems/An Empty Meadow.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",
+	"./poems/If.html",
 	"./poems/Into the Fray.html", 
 	"./poems/Mad Girl's Love Song.html",
+	"./poems/The Journey.html",
 	"./poems/The Visitor.html"
 	];
 

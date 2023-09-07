@@ -65,17 +65,12 @@ a
 	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
 	}
 
-
 html	{	font-size: 62.5%;	} /*---10px--*/
-body 
-	{
+body 	{
 	line-height: 1.6;
 	font-family: 'Raleway', sans-serif;
 	overflow:auto;
 	}
-
-
-
 /*---------------Style the font----------------------*/
 /*---------------Style the texts---------------------*/
 p	{
@@ -94,9 +89,9 @@ p12	{
 
 p15	{ 
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;	/*---16px--*/
+	font-size: 1.5rem;	/*---15px--*/
 	color:#222;
-	}			
+	}
 
 h1, h2, h3, h4, h5, h6 
 	{
@@ -150,12 +145,12 @@ h	/*---website name---*/
 .mainleft, .mainrightquote
 	{background-color:#EDF2F4;}
 	
-
 .breadCrumbs a:hover
 	{
 	color:#D80032;
 	font-weight:bold;
 	}
+
 hp6 a:hover, h6 a:hover
 	{
 	color:#D80032;
@@ -185,7 +180,6 @@ button:hover
 	}
 #bm, #bm2, #search
 	{margin:0 3px 0 3px;}
-
 
 input
 	{
@@ -284,11 +278,32 @@ Iframe	//*--iframe--*//
 	content:"”";
 	}
 
-
 @keyframes animfade
 	{
 	from	{opacity:0.4;	}
 	to	{opacity:1;	}
+	}
+
+#searchIframe
+	{
+	overflow-clip-margin: content-box !important;
+	border-width: 0;
+	border-style: none;
+	border-color: initial;
+	border-image: unset;
+	overflow: clip !important;
+	height:max-content;
+	z-index:2;
+	width:50%;
+	}
+
+#iSearch
+	{
+	display:flex;
+	flex-direction:column;
+	height:35px;
+	position:relative;
+	z-index:3;
 	}
 /*---------------Style buttons + input + iframe------*/
 /*---------------Style background--------------------*/
@@ -329,11 +344,6 @@ Iframe	//*--iframe--*//
 	z-index:2;
 	position:relative;
 	}
-/*---.heading>div	--removed to align-top search list
-	{	
-	align-items:center;
-	}
----*/
 
 .left
 	{
@@ -349,27 +359,7 @@ Iframe	//*--iframe--*//
 	height:35px;
 	justify-content:flex-end;
 	}
-#searchIframe
-	{
-	overflow-clip-margin: content-box !important;
-	border-width: 0;
-	border-style: none;
-	border-color: initial;
-	border-image: unset;
-	overflow: clip !important;
-	height:max-content;
-	z-index:2;
-	width:50%;
-	}
 
-#iSearch
-	{
-	display:flex;
-	flex-direction:column;
-	height:35px;
-	position:relative;
-	z-index:3;
-	}
 /*---------------heading-----------------------------*/
 /*---------------webname-----------------------------*/
 .webname
@@ -383,7 +373,6 @@ Iframe	//*--iframe--*//
 	font-family:'Raleway';
 	text-shadow: 0 0 5px black;
 	}
-
 
 /*---------------webname-----------------------------*/
 /*---------------main--------------------------------*/
