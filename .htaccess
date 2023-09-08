@@ -1,1 +1,1 @@
-ErrorDocument 404 <h3>Page not found</h3>
+ErrorDocument 404 /x404.html
