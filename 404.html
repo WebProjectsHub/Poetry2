@@ -6,7 +6,7 @@
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+<base target="_parent">
 </head>
 <style>
 html
@@ -304,6 +304,7 @@ Iframe	//*--iframe--*//
 	height:100vh;
 	-webkit-background-image:url(./Assets/images/Ars_Poetic-bg_02.jpg);
 	background-image:url(./Assets/images/Ars_Poetic-bg_02.jpg);
+	background-color:silver;
 	background-size: cover;
 	background-position:0% 0%;
 	background-repeat: no-repeat;
@@ -577,7 +578,7 @@ Iframe	//*--iframe--*//
 			<button id="bm" onclick="openRandomPage()">
 				<a href=#>Surprise me!</a>
 			</button>
-			<iframe id="searchIframe" scrolling="no" src="./Poetry/search.html"></iframe>
+			<input 	type="text" id="iSearch" onkeyup="searchfunc()" placeholder="Search title..." title="Search title">
 		</div>
 	</div>
 	<!----------END--------------->
