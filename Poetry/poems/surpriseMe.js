@@ -9,6 +9,7 @@ var urls3 =
 	"../poems/Immortality.html",
 	"../poems/Into the Fray.html", 
 	"../poems/Mad Girl's Love Song.html",
+	"../poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"../poems/The Journey.html",
 	"../poems/The Visitor.html"
 	];
