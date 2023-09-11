@@ -3,8 +3,10 @@
 var urls3 = 
 	[
 	"../poems/An Empty Meadow.html",
+	"../poems/Desiderata.html",
 	"../poems/Do Not Go Gentle Into That Good Night.html",
 	"../poems/If.html",
+	"../poems/Immortality.html",
 	"../poems/Into the Fray.html", 
 	"../poems/Mad Girl's Love Song.html",
 	"../poems/The Journey.html",
