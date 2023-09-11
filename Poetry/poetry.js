@@ -64,6 +64,7 @@ var urls2 = [
 	"./featured/Into the Fray.html",
 	"./featured/The Road Not Taken.html", 
 	"./featured/Mad Girl's Love Song.html",
+	"./featured/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./featured/The Journey.html",
 	"./featured/The Visitor.html"
 	];
@@ -111,6 +112,7 @@ var urls3 =
 	"./poems/Immortality.html",
 	"./poems/Into the Fray.html", 
 	"./poems/Mad Girl's Love Song.html",
+	"./poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./poems/The Journey.html",
 	"./poems/The Road Not Taken.html", 
 	"./poems/The Visitor.html"
