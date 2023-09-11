@@ -57,8 +57,10 @@ function sortTable(n) {
 
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/Desiderata.html",
 	"./featured/Do Not Go Gentle Into That Good Night.html",
 	"./featured/If.html",
+	"./featured/Immortality.html",
 	"./featured/Into the Fray.html",
 	"./featured/The Road Not Taken.html", 
 	"./featured/Mad Girl's Love Song.html",
@@ -103,11 +105,14 @@ setInterval(displayRandomFile, 20000);
 var urls3 = 
 	[
 	"./poems/An Empty Meadow.html",
+	"./poems/Desiderata.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",
 	"./poems/If.html",
+	"./poems/Immortality.html",
 	"./poems/Into the Fray.html", 
 	"./poems/Mad Girl's Love Song.html",
 	"./poems/The Journey.html",
+	"./poems/The Road Not Taken.html", 
 	"./poems/The Visitor.html"
 	];
 
