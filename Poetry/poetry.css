@@ -147,9 +147,9 @@ h	/*---website name---*/
 
 #mainLeftBlur, #mainRightBlur
 	{
-	background-color:rgba(237, 242, 244, 0.5);
-	backdrop-filter: blur(5px);
-	-webkit-backdrop-filter: blur(5px);
+	background-color:rgba(237, 242, 244, 0.25);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	}
 	
 .breadCrumbs a:hover
