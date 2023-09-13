@@ -144,6 +144,12 @@ h	/*---website name---*/
 /*---------------Style colors------------------------*/
 .mainleft, .mainrightquote
 	{background-color:#EDF2F4;}
+
+#mainLeftBlur, #mainRightBlur
+	{
+	background-color:rgba(237, 242, 244, 0.25);
+	backdrop-filter: blur(5px);
+	}
 	
 .breadCrumbs a:hover
 	{
@@ -404,6 +410,8 @@ Iframe	//*--iframe--*//
 	}
 .mainrightTitle h6, .mainleftTitle h6
 	{	margin:0	}
+
+
 /*---------------main------------------------------*/
 /*---------------main-left-------------------------*/
 .mainleftPoem
@@ -559,3 +567,17 @@ Iframe	//*--iframe--*//
 	.main	{height:unset}
 }
 
+/*- Print only the Poem- */
+@media print
+{
+.container
+	{
+	display:flex;
+	justify-content: center;
+	}
+.mainbody
+	{justify-content: center;}
+.heading, .mainRightPoem, .webname, .mainRightLinks
+	{display:none;}
+
+}

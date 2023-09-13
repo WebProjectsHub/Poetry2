@@ -62,10 +62,12 @@ var urls2 = [
 	"./featured/If.html",
 	"./featured/Immortality.html",
 	"./featured/Into the Fray.html",
-	"./featured/The Road Not Taken.html", 
+	"./featured/Later Today.html", 
 	"./featured/Mad Girl's Love Song.html",
 	"./featured/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./featured/The Journey.html",
+	"./featured/The Night is Darkening Round Me.html",
+	"./featured/The Road Not Taken.html",
 	"./featured/The Visitor.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
@@ -111,9 +113,11 @@ var urls3 =
 	"./poems/If.html",
 	"./poems/Immortality.html",
 	"./poems/Into the Fray.html", 
+	"./poems/Later Today.html",
 	"./poems/Mad Girl's Love Song.html",
 	"./poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./poems/The Journey.html",
+	"./poems/The Night is Darkening Round Me.html",
 	"./poems/The Road Not Taken.html", 
 	"./poems/The Visitor.html"
 	];
