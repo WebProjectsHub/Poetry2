@@ -59,6 +59,7 @@ function sortTable(n) {
 var urls2 = [
 	"./featured/Desiderata.html",
 	"./featured/Do Not Go Gentle Into That Good Night.html",
+	"./featured/Fire and Ice.html",
 	"./featured/If.html",
 	"./featured/Immortality.html",
 	"./featured/Into the Fray.html",
@@ -68,7 +69,8 @@ var urls2 = [
 	"./featured/The Journey.html",
 	"./featured/The Night is Darkening Round Me.html",
 	"./featured/The Road Not Taken.html",
-	"./featured/The Visitor.html"
+	"./featured/The Visitor.html",
+	"./featured/Untitled.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
 function displayRandomFile2() 
@@ -110,6 +112,7 @@ var urls3 =
 	"./poems/An Empty Meadow.html",
 	"./poems/Desiderata.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",
+	"./poems/Fire and Ice.html",
 	"./poems/If.html",
 	"./poems/Immortality.html",
 	"./poems/Into the Fray.html", 
@@ -119,7 +122,8 @@ var urls3 =
 	"./poems/The Journey.html",
 	"./poems/The Night is Darkening Round Me.html",
 	"./poems/The Road Not Taken.html", 
-	"./poems/The Visitor.html"
+	"./poems/The Visitor.html",
+	"./poems/Untitled.html"
 	];
 
 // A function to get a random URL from the array
