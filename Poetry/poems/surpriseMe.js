@@ -11,11 +11,13 @@ var urls3 =
 	"../poems/Into the Fray.html", 
 	"../poems/Later Today.html",
 	"../poems/Mad Girl's Love Song.html",
+	"../poems/She Walks in Beauty.html",
 	"../poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"../poems/The Journey.html",
 	"../poems/The Night is Darkening Round Me.html",
 	"../poems/The Visitor.html",
-	"../poems/Untitled.html"
+	"../poems/Untitled.html",
+	"../poems/Wild nights - Wild nights.html"
 	];
 
 // A function to get a random URL from the array
