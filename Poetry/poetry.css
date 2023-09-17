@@ -147,7 +147,7 @@ h	/*---website name---*/
 
 #mainLeftBlur, #mainRightBlur
 	{
-	background-color:rgba(237, 242, 244, 0.25);
+	background-color:rgba(237, 242, 244, 0.35);
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
 	}
