@@ -59,6 +59,13 @@ pre
 .poemAuthor hp5:before
 	{ content:"by ";	}
 
+#spanCenter
+	{
+	display: inline-flex;
+	justify-content: center;
+	width: -webkit-fill-available;
+	}
+
 /*-------RESPONSIVE-------------------*/
 /* Larger than tablet */
 @media (max-width: 500px) 
