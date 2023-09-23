@@ -3,15 +3,18 @@
 var urls3 = 
 	[
 	"../poems/An Empty Meadow.html",
+	"../poems/Deep-sea Soundings.html",
 	"../poems/Desiderata.html",
 	"../poems/Do Not Go Gentle Into That Good Night.html",
 	"../poems/Fire and Ice.html",
+	"../poems/Hello, Dracula.html",
 	"../poems/I Am the Only Being Whose Doom.html",
 	"../poems/If.html",
 	"../poems/Immortality.html",
 	"../poems/Into the Fray.html", 
 	"../poems/Later Today.html",
 	"../poems/Mad Girl's Love Song.html",
+	"../poems/See What I See.html",
 	"../poems/She Walks in Beauty.html",
 	"../poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"../poems/Stopping by Woods on a Snowy Evening.html",
