@@ -57,24 +57,28 @@ function sortTable(n) {
 
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/An Empty Meadow.html",
+	"./featured/Deep-sea Soundings.html",
 	"./featured/Desiderata.html",
 	"./featured/Do Not Go Gentle Into That Good Night.html",
 	"./featured/Fire and Ice.html",
+	"./featured/Hello, Dracula.html",
 	"./featured/I Am the Only Being Whose Doom.html",
 	"./featured/If.html",
 	"./featured/Immortality.html",
 	"./featured/Into the Fray.html",
 	"./featured/Later Today.html", 
 	"./featured/Mad Girl's Love Song.html",
+	"./featured/See What I See.html",
 	"./featured/She Walks in Beauty.html",
 	"./featured/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./featured/Stopping by Woods on a Snowy Evening.html",
-	"./featured/Time Does Not Bring Relief; You All Have Lied.html",
 	"./featured/The Bells.html",
 	"./featured/The Journey.html",
 	"./featured/The Night is Darkening Round Me.html",
 	"./featured/The Road Not Taken.html",
 	"./featured/The Visitor.html",
+	"./featured/Time Does Not Bring Relief; You All Have Lied.html",
 	"./featured/Untitled.html",
 	"./featured/Wild nights - Wild nights.html"
 	];
@@ -116,15 +120,18 @@ setInterval(displayRandomFile, 20000);
 var urls3 = 
 	[
 	"./poems/An Empty Meadow.html",
+	"./poems/Deep-sea Soundings.html",
 	"./poems/Desiderata.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",
 	"./poems/Fire and Ice.html",
+	"./poems/Hello, Dracula.html",
 	"./poems/I Am the Only Being Whose Doom.html",
 	"./poems/If.html",
 	"./poems/Immortality.html",
 	"./poems/Into the Fray.html", 
 	"./poems/Later Today.html",
 	"./poems/Mad Girl's Love Song.html",
+	"./poems/See What I See.html",
 	"./poems/She Walks in Beauty.html",
 	"./poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
 	"./poems/Stopping by Woods on a Snowy Evening.html",
