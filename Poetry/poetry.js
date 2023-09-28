@@ -57,6 +57,7 @@ function sortTable(n) {
 
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
 	"./featured/Deep-sea Soundings.html",
 	"./featured/Desiderata.html",
@@ -119,6 +120,7 @@ setInterval(displayRandomFile, 20000);
 // An array of random URLs
 var urls3 = 
 	[
+	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
 	"./poems/Deep-sea Soundings.html",
 	"./poems/Desiderata.html",
