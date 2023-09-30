@@ -3,6 +3,7 @@
 var urls3 = 
 	[
 	"../poems/Advice To A Son.html",
+	"../poems/Because I Could Not Stop for Death.html",
 	"../poems/An Empty Meadow.html",
 	"../poems/Deep-sea Soundings.html",
 	"../poems/Desiderata.html",
