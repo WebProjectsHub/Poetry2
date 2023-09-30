@@ -59,6 +59,7 @@ function sortTable(n) {
 var urls2 = [
 	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
+	"./featured/Because I Could Not Stop for Death.html",
 	"./featured/Deep-sea Soundings.html",
 	"./featured/Desiderata.html",
 	"./featured/Do Not Go Gentle Into That Good Night.html",
@@ -122,6 +123,7 @@ var urls3 =
 	[
 	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
+	"./poems/Because I Could Not Stop for Death.html",
 	"./poems/Deep-sea Soundings.html",
 	"./poems/Desiderata.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",

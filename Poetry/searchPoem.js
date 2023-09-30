@@ -38,15 +38,18 @@ function searchfunc() 					/*---Search function	--------*/
 			}------*/
     
 	/*---This is when you want to find words that start the search string------*/
-	if (a.innerHTML.toUpperCase().startsWith(filter)) 
-		{
+	if (a.innerHTML.toUpperCase().indexOf(filter) > -1) 
+		{ 
+                a.innerHTML = a.innerHTML.replace(new RegExp(filter,"gi"), function(match){
+                    return "<mark>" + match + "</mark>";
+                });
 		li[i].style.display = "";
 		}
-		else
+	else
 			{
 			li[i].style.display = "none";
+			a.innerHTML = a.innerHTML.replace(/<mark>|<\/mark>/gi, "");
 			}
-	
-		}
+    }
 }
 //*---END Search Script---------------------------*/
