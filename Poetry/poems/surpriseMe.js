@@ -14,6 +14,7 @@ var urls3 =
 	"../poems/If.html",
 	"../poems/Immortality.html",
 	"../poems/Into the Fray.html", 
+	"../poems/Invictus.html", 
 	"../poems/Later Today.html",
 	"../poems/Mad Girl's Love Song.html",
 	"../poems/See What I See.html",
