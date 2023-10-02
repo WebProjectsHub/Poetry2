@@ -20,6 +20,8 @@ var urls3 =
 	"../poems/See What I See.html",
 	"../poems/She Walks in Beauty.html",
 	"../poems/Sonnet 18 Shall I compare thee to a summer’s day.html",
+	"../poems/Sonnet 116 Let Me Not To The Marriage of True Minds.html",
+	"../poems/Sonnet VII.html",
 	"../poems/Stopping by Woods on a Snowy Evening.html",
 	"../poems/Time Does Not Bring Relief; You All Have Lied.html",
 	"../poems/The Bells.html",
