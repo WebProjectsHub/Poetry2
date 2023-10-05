@@ -57,6 +57,7 @@ function sortTable(n) {
 
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/A Prayer.html",
 	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
 	"./featured/Because I Could Not Stop for Death.html",
@@ -82,8 +83,10 @@ var urls2 = [
 	"./featured/The Journey.html",
 	"./featured/The Night is Darkening Round Me.html",
 	"./featured/The Road Not Taken.html",
+	"./featured/The Summer Girl.html",
 	"./featured/The Visitor.html",
 	"./featured/Time Does Not Bring Relief; You All Have Lied.html",
+	"./featured/To A Little Girl.html",
 	"./featured/Untitled.html",
 	"./featured/Wild nights - Wild nights.html"
 	];
@@ -124,6 +127,7 @@ setInterval(displayRandomFile, 20000);
 // An array of random URLs
 var urls3 = 
 	[
+	"./poems/A Prayer.html",
 	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
 	"./poems/Because I Could Not Stop for Death.html",
@@ -145,12 +149,14 @@ var urls3 =
 	"./poems/Sonnet 116 Let Me Not To The Marriage of True Minds.html",
 	"./poems/Sonnet VII.html",
 	"./poems/Stopping by Woods on a Snowy Evening.html",
-	"./poems/Time Does Not Bring Relief; You All Have Lied.html",
 	"./poems/The Bells.html",
 	"./poems/The Journey.html",
 	"./poems/The Night is Darkening Round Me.html",
 	"./poems/The Road Not Taken.html", 
+	"./poems/The Summer Girl.html",
 	"./poems/The Visitor.html",
+	"./poems/Time Does Not Bring Relief; You All Have Lied.html",
+	"./poems/To A Little Girl.html",
 	"./poems/Untitled.html",
 	"./poems/Wild nights - Wild nights.html"
 	];
