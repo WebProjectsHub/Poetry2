@@ -130,6 +130,7 @@ h	/*---website name---*/
 	color:#EF233C;
 	}
 
+
 /* Larger than phablet */
 @media (min-width: 550px) 
 {
@@ -187,6 +188,24 @@ button:hover
 	}
 #bm, #bm2, #search
 	{margin:0 3px 0 3px;}
+
+#bprev, #bnext
+	{
+	width:35px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	}
+
+#bprev
+	{
+	margin:0 0 0 3px;
+	}
+
+#bnext
+	{
+	margin:0 3px 0 0;
+	}
 
 input
 	{
