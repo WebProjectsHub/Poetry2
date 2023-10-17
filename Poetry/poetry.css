@@ -169,6 +169,12 @@ hp5 a:hover, h5 a:hover, li a:hover
 	{
 	color:#D80032;
 	}
+hp5 >div
+	{
+	text-indent: -1.5em;
+	padding-left: 1.5em;
+	}
+
 /*---------------Style colors------------------------*/
 /*---------------Style buttons + input + iframe------*/
 button
