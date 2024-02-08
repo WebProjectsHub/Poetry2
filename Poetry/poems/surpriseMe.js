@@ -36,6 +36,7 @@ var urls3 =
 	"../poems/Not.html",
 	"../poems/Pain Ends.html",
 	"../poems/Remember.html",
+	"../poems/Sea Fever.html",
 	"../poems/See It Through.html",
 	"../poems/See What I See.html",
 	"../poems/She Walks in Beauty.html",
@@ -48,6 +49,8 @@ var urls3 =
 	"../poems/The Invitation.html",
 	"../poems/The Journey.html",
 	"../poems/The Night is Darkening Round Me.html",
+	"../poems/The Road Not Taken.html",
+	"../poems/The Spring And The Fall.html",
 	"../poems/The Summer Girl.html",
 	"../poems/The True Meaning Of Life.html",
 	"../poems/The Visitor.html",
@@ -55,6 +58,8 @@ var urls3 =
 	"../poems/To A Little Girl.html",
 	"../poems/Untitled.html",
 	"../poems/You Took Away My Innocence.html",
+	"../poems/What Life Should Be.html",
+	"../poems/What Lips My Lips Have Kissed.html",
 	"../poems/Wild nights - Wild nights.html"
 	];
 
@@ -115,6 +120,7 @@ var pages =
 	"../poems/Not.html",
 	"../poems/Pain Ends.html",
 	"../poems/Remember.html",
+	"../poems/Sea Fever.html",
 	"../poems/See It Through.html",
 	"../poems/See What I See.html",
 	"../poems/She Walks in Beauty.html",
@@ -127,6 +133,8 @@ var pages =
 	"../poems/The Invitation.html",
 	"../poems/The Journey.html",
 	"../poems/The Night is Darkening Round Me.html",
+	"../poems/The Road Not Taken.html",
+	"../poems/The Spring And The Fall.html",
 	"../poems/The Summer Girl.html",
 	"../poems/The True Meaning Of Life.html",
 	"../poems/The Visitor.html",
@@ -134,6 +142,8 @@ var pages =
 	"../poems/To A Little Girl.html",
 	"../poems/Untitled.html",
 	"../poems/You Took Away My Innocence.html",
+	"../poems/What Life Should Be.html",
+	"../poems/What Lips My Lips Have Kissed.html",
 	"../poems/Wild nights - Wild nights.html"
 	];
 function nextPage() 
