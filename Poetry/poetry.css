@@ -50,6 +50,14 @@ a
 	src: local('Sriracha Regular'), url('../Assets/fonts/Sriracha/Sriracha-Regular.woff') format('woff');
 	}
 
+@font-face
+	{
+	font-family: 'Fondamento';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Fondamento'), url('../Assets/fonts/Fondamento/Fondamento-Italic.ttf') format('truetype');
+	}
+
 @font-face 
 	{
 	font-family: 'Raleway';
@@ -115,7 +123,11 @@ h7, hp7	/*---12px--*/
 
 hp1, hp2, hp3, hp4, hp5, hp6 
 	{
+
 	font-family: 'Sriracha Regular', sans-serif;
+	/*--
+	font-family: 'TexGyreChorus', sans-serif;
+	--*/
 	margin-top: 0;
 	margin-bottom: 2rem;
 	}

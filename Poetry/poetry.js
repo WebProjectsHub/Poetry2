@@ -91,6 +91,7 @@ var urls2 = [
 	"./featured/Not.html",
 	"./featured/Pain Ends.html",
 	"./featured/Remember.html",
+	"./featured/Sea Fever.html",
 	"./featured/See It Through.html",
 	"./featured/See What I See.html",
 	"./featured/She Walks in Beauty.html",
@@ -104,6 +105,7 @@ var urls2 = [
 	"./featured/The Journey.html",
 	"./featured/The Night is Darkening Round Me.html",
 	"./featured/The Road Not Taken.html",
+	"./featured/The Spring And The Fall.html",
 	"./featured/The Summer Girl.html",
 	"./featured/The True Meaning Of Life.html",
 	"./featured/The Visitor.html",
@@ -111,6 +113,8 @@ var urls2 = [
 	"./featured/To A Little Girl.html",
 	"./featured/Untitled.html",
 	"./featured/You Took Away My Innocence.html",
+	"./featured/What Life Should Be.html",
+	"./featured/What Lips My Lips Have Kissed.html",
 	"./featured/Wild nights - Wild nights.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
@@ -184,6 +188,7 @@ var urls3 =
 	"./poems/Not.html",
 	"./poems/Pain Ends.html",
 	"./poems/Remember.html",
+	"./poems/Sea Fever.html",
 	"./poems/See It Through.html",
 	"./poems/See What I See.html",
 	"./poems/She Walks in Beauty.html",
@@ -197,6 +202,7 @@ var urls3 =
 	"./poems/The Journey.html",
 	"./poems/The Night is Darkening Round Me.html",
 	"./poems/The Road Not Taken.html",
+	"./poems/The Spring And The Fall.html",
 	"./poems/The Summer Girl.html",
 	"./poems/The True Meaning Of Life.html",
 	"./poems/The Visitor.html",
@@ -204,6 +210,8 @@ var urls3 =
 	"./poems/To A Little Girl.html",
 	"./poems/Untitled.html",
 	"./poems/You Took Away My Innocence.html",
+	"./poems/What Life Should Be.html",
+	"./poems/What Lips My Lips Have Kissed.html",
 	"./poems/Wild nights - Wild nights.html"
 	];
 
