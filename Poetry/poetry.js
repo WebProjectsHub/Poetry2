@@ -57,6 +57,7 @@ function sortTable(n) {
 
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/A Father's Prayer.html",
 	"./featured/A Prayer.html",
 	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
@@ -65,6 +66,7 @@ var urls2 = [
 	"./featured/Calypso.html",
 	"./featured/Courage.html",
 	"./featured/Deep-sea Soundings.html",
+	"./featured/Denouement Villanelle.html",
 	"./featured/Desiderata.html",
 	"./featured/Do Not Go Gentle Into That Good Night.html",
 	"./featured/Faith.html",
@@ -101,6 +103,7 @@ var urls2 = [
 	"./featured/Still I Rise.html",
 	"./featured/Stopping by Woods on a Snowy Evening.html",
 	"./featured/The Bells.html",
+	"./featured/The Guy in the Glass.html",
 	"./featured/The Invitation.html",
 	"./featured/The Journey.html",
 	"./featured/The Night is Darkening Round Me.html",
@@ -154,6 +157,7 @@ setInterval(displayRandomFile, 20000);
 // An array of random URLs
 var urls3 = 
 	[
+	"./poems/A Father's Prayer.html",
 	"./poems/A Prayer.html",
 	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
@@ -162,6 +166,7 @@ var urls3 =
 	"./poems/Calypso.html",
 	"./poems/Courage.html",
 	"./poems/Deep-sea Soundings.html",
+	"./poems/Denouement Villanelle.html",
 	"./poems/Desiderata.html",
 	"./poems/Do Not Go Gentle Into That Good Night.html",
 	"./poems/Faith.html",
@@ -198,6 +203,7 @@ var urls3 =
 	"./poems/Still I Rise.html",
 	"./poems/Stopping by Woods on a Snowy Evening.html",
 	"./poems/The Bells.html",
+	"./poems/The Guy in the Glass.html",
 	"./poems/The Invitation.html",
 	"./poems/The Journey.html",
 	"./poems/The Night is Darkening Round Me.html",
