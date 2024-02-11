@@ -2,6 +2,7 @@
 // An array of random URLs
 var urls3 = 
 	[
+	"../poems/A Father's Prayer.html",
 	"../poems/A Prayer.html",
 	"../poems/Advice To A Son.html",
 	"../poems/An Empty Meadow.html",
@@ -10,6 +11,7 @@ var urls3 =
 	"../poems/Calypso.html",
 	"../poems/Courage.html",
 	"../poems/Deep-sea Soundings.html",
+	"../poems/Denouement Villanelle.html",
 	"../poems/Desiderata.html",
 	"../poems/Do Not Go Gentle Into That Good Night.html",
 	"../poems/Faith.html",
@@ -46,6 +48,7 @@ var urls3 =
 	"../poems/Still I Rise.html",
 	"../poems/Stopping by Woods on a Snowy Evening.html",
 	"../poems/The Bells.html",
+	"../poems/The Guy in the Glass.html",
 	"../poems/The Invitation.html",
 	"../poems/The Journey.html",
 	"../poems/The Night is Darkening Round Me.html",
@@ -86,6 +89,7 @@ function openRandomPage()
 // function to display next file
 var pages = 
 	[
+	"../poems/A Father's Prayer.html",
 	"../poems/A Prayer.html",
 	"../poems/Advice To A Son.html",
 	"../poems/An Empty Meadow.html",
@@ -94,6 +98,7 @@ var pages =
 	"../poems/Calypso.html",
 	"../poems/Courage.html",
 	"../poems/Deep-sea Soundings.html",
+	"../poems/Denouement Villanelle.html",
 	"../poems/Desiderata.html",
 	"../poems/Do Not Go Gentle Into That Good Night.html",
 	"../poems/Faith.html",
@@ -130,6 +135,7 @@ var pages =
 	"../poems/Still I Rise.html",
 	"../poems/Stopping by Woods on a Snowy Evening.html",
 	"../poems/The Bells.html",
+	"../poems/The Guy in the Glass.html",
 	"../poems/The Invitation.html",
 	"../poems/The Journey.html",
 	"../poems/The Night is Darkening Round Me.html",
