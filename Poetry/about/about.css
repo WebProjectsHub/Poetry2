@@ -188,7 +188,35 @@ li a:hover
 		color:red;
 		}
 	}
-	/*-------style new blink anim----------------*/
+	/*-------END style new blink anim------------*/
+	/*-------style heart blink anim--------------*/
+#heart::before
+	{
+	font-family: 'Material Symbols Outlined';
+	content:"favorite";
+	font-variation-settings: "FILL" 1;
+	margin-right:20px;
+	font-size: 1.5rem;
+	color:red;
+	animation-name:heartFill;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+@keyframes heartFill
+	{
+	from	{
+		content:"heart_broken";
+		color:black;
+		}
+	to	{
+		font-variation-settings: "FILL" 1;
+		}
+	}
+	/*-------END style heart blink anim----------*/
+
 /*---------------style middle right accordion--------*/
 
 
