@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Browse by Poem</title>
+   <link rel="stylesheet" href="../poetry.css">
+   <link rel="stylesheet" href="./about.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../../Assets/images/favicon/site.webmanifest">
+
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+<!----------background---------->
+<div class="background">
+</div>
+<!----------background---------->
+<!----------container----------->
+<div class="container">
+	<!----------heading----------->
+	<div class="heading">
+		<div class="left">
+			<button id="b1"><a href="../Poetry.html">
+				Home
+			</a></button>
+			<button id="bm"><a href="./about.html">
+				About
+			</a></button>
+		</div>
+		<div class="right">
+			<button id="bm" onclick="openRandomPage()">
+				<a href=#>Surprise me!</a>
+			</button>
+			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
+		</div>
+	</div>
+	<!----------END--------------->
+	<!----------webname----------->
+	<div class="webname">		<a href="../Poetry.html">
+		<h>Ars Poetica</h>	</a>
+	</div>
+	<!----------END--------------->
+	<!----------main-------------->
+	<div class="main">
+		<!----------poem of the day------------>
+		<div class="mainleft" style="height:unset;">
+			<div class="mainleftTitle">
+				<h6>Poems of Love and Heartbreaks</h6>
+			</div>
+			<div id="contents">
+				<table>
+					<tr>
+						<th onclick="sortTable(0)" id="sort">
+							Poem</th>
+						<th onclick="sortTable(1)" id="sort">
+							Author</th>
+					</tr>
+
+<!---An Empty Meadow---->		<tr>	
+						<td><a href="../poems/An Empty Meadow.html"	id="heart">
+							An Empty Meadow
+						</a></td>
+						<td><a href="../author/Shim Myeong Yeo.html">
+							Shim Myeong Yeo
+						</a></td>
+					</tr>
+
+<!---Calypso----------->		<tr>
+						<td><a href="../poems/Calypso.html"	id="heart">
+							Calypso
+						</a></td>
+						<td><a href="../author/Wystan Hugh Auden.html">
+							Wystan Hugh Auden
+						</a></td>
+					</tr>
+
+<!---Denouement Villanelle---->		<tr>
+						<td><a href="../poems/Denouement Villanelle.html"	id="heart">
+							Denouement Villanelle
+						</a></td>
+						<td><a href="../author/Sylvia Plath.html">
+							Sylvia Plath
+						</a></td>
+					</tr>
+
+<!---Fire and Ice---->			<tr>
+						<td><a href="../poems/Fire and Ice.html"	id="heart">
+							Fire and Ice
+						</a></td>
+						<td><a href="../author/Robert Frost.html">
+							Robert Frost
+						</a></td>
+					</tr>
+
+<!---Hello, Dracula---->		<tr>
+						<td><a href="../poems/Hello, Dracula.html"	id="heart">
+							Hello, Dracula
+						</a></td>
+						<td><a href="../author/Ha Jaeyoun.html">
+							Ha Jaeyoun
+						</a></td>
+					</tr>
+<!---How Do I Love...---->		<tr>
+						<td><a href="../poems/How Do I Love Thee.html"	id="heart">
+							How Do I Love Thee?
+						</a></td>
+						<td><a href="../author/Elizabeth Barrett Browning.html">
+							Elizabeth Barrett Browning
+						</a></td>
+					</tr>
+
+<!---I Do Not Love You...---->		<tr>
+						<td><a href="../poems/I Do Not Love You Except Because I Love You.html"	id="heart">
+							I Do Not Love You Except Because I Love You
+						</a></td>
+						<td><a href="../author/Pablo Neruda.html">
+							EPablo Neruda
+						</a></td>
+					</tr>
+<!---I Love You---->			<tr>
+						<td><a href="../poems/I Love You.html"	id="heart">
+							I Love You
+						</a></td>
+						<td><a href="../author/Ella Wheeler Wilcox.html">
+							Ella Wheeler Wilcox
+						</a></td>
+					</tr>
+
+
+<!---If I Could Tell You---->		<tr>
+						<td><a href="../poems/If I Could Tell You.html"	id="heart">
+							If I Could Tell You
+						</a></td>
+						<td><a href="../author/Wystan Hugh Auden.html">
+							Wystan Hugh Auden
+						</a></td>
+					</tr>
+<!---Love's Language---->			<tr>
+						<td><a href="../poems/Love's Language.html"	id="heart">
+							Love's Language
+						</a></td>
+						<td><a href="../author/Ella Wheeler Wilcox.html">
+							Ella Wheeler Wilcox
+						</a></td>
+					</tr>
+<!---Mad Girl's Love Song---->		<tr>
+						<td><a href="../poems/Mad Girl's Love Song.html"	id="heart">
+							Mad Girl's Love Song
+						</a></td>
+						<td><a href="../author/Sylvia Plath.html">
+							Sylvia Plath
+						</a></td>
+					</tr>
+<!---Pain Ends------->			<tr>
+						<td><a href="../poems/Pain Ends.html"	id="heart">
+							Pain Ends
+						</a></td>
+						<td><a href="../author/Katy A Brown.html">
+							Katy A. Brown
+						</a></td>
+					</tr>
+
+<!---She Walks in Beauty---->		<tr>
+						<td><a href="../poems/She Walks in Beauty.html"	id="heart">
+							She Walks in Beauty
+						</a></td>
+						<td><a href="../author/Lord Byron.html">
+							Lord Byron
+						</a></td>
+					</tr>
+<!---Sonnet 18 Shall I compare...---->	<tr>
+						<td><a href="../poems/Sonnet 18 Shall I compare thee to a summer’s day.html"	id="heart">
+							Sonnet 18: Shall I Compare Thee To a Summer’s Day?
+						</a></td>
+						<td><a href="../author/William Shakespeare.html">
+							William Shakespeare
+						</a></td>
+					</tr>
+<!---Sonnet 116: Let Me Not...---->	<tr>
+						<td><a href="../poems/Sonnet 116 Let Me Not To The Marriage of True Minds.html"	id="heart">
+							Sonnet 116: Let Me Not To The Marriage of True Minds
+						</a></td>
+						<td><a href="../author/William Shakespeare.html">
+							William Shakespeare
+						</a></td>
+					</tr>
+<!---Sonnet VII---->			<tr>
+						<td><a href="../poems/Sonnet VII.html"	id="heart">
+							Sonnet VII
+						</a></td>
+						<td><a href="../author/Hartley Coleridge.html">
+							Hartley Coleridge
+						</a></td>
+					</tr>
+
+<!---The Spring And The Fall-->		<tr>
+						<td><a href="../poems/The Spring And The Fall.html"	id="heart">
+							The Spring And The Fall
+						</a></td>
+						<td><a href="../author/Edna St Vincent Millay.html">
+							Edna St. Vincent Millay
+						</a></td>
+					</tr>
+<!---The Summer Girl------>		<tr>
+						<td><a href="../poems/The Summer Girl.html"	id="heart">
+							The Summer Girl
+						</a></td>
+						<td><a href="../author/Edgar Albert Guest.html">
+							Edgar Albert Guest
+						</a></td>
+					</tr>
+<!---The Visitor---->			<tr>
+						<td><a href="../poems/The Visitor.html"	id="heart">
+							The Visitor
+						</a></td>
+						<td><a href="../author/Chong Hyon-Jong.html">
+							Chong Hyon-Jong
+						</a></td>
+					</tr>
+<!---Time Does Not---->			<tr>
+						<td><a href="../poems/Time Does Not Bring Relief; You All Have Lied.html"	id="heart">
+							Time Does Not Bring Relief; You All Have Lied
+						</a></td>
+						<td><a href="../author/Edna St Vincent Millay.html">
+							Edna St. Vincent Millay
+						</a></td>
+					</tr>
+
+<!---Untitled---->			<tr>
+						<td><a href="../poems/Untitled.html"	id="heart">
+							Untitled
+						</a></td>
+						<td><a href="../author/Unknown.html">
+							Unknown
+						</a></td>
+					</tr>
+<!---What Lips My Lips...---->		<tr>
+						<td><a href="../poems/What Lips My Lips Have Kissed.html"	id="heart">
+							What Lips My Lips Have Kissed
+						</a></td>
+						<td><a href="../author/Edna St Vincent Millay.html">
+							Edna St. Vincent Millay
+						</a></td>
+					</tr>
+<!---Wild nights---->					<tr>
+						<td><a href="../poems/Wild nights - Wild nights.html"	id="heart">
+							Wild nights - Wild nights!
+						</a></td>
+						<td><a href="../author/Emily Dickinson.html">
+							Emily Dickinson
+						</a></td>
+					</tr>
+
+
+				</table>
+			</div>
+		</div>
+		<!----------END------------------------>
+		<!----------quote of the day----------->
+		<div class="mainright">
+			<div class="mainrighttop">
+				<button id="b1"><a href="./byPoem.html">
+					Browse by Poem
+				</a></button>
+				<button id="bm2"><a href="./byAuthor.html">
+					Browse by Author
+				</a></button>
+				<button id="b1"><a href="./byTopic.html">
+					Browse by Topic
+				</a></button>
+			</div>
+			<div class="mainrightquote">
+				<div class="mainrightTitle">
+					<h6>Other Topics</h6>
+				</div>
+				<div id="topics">
+					<hp6><a href="./aboutWhat is Poetry.html">
+						What is Poetry			</a><br>
+					<hp6><a href="../poems/History of Poetry.html">
+						History of Poetry		</a><br>
+					<hp6><a href="./aboutElements of Poetry.html">
+						Elements of Poetry		</a><br>
+					<a href="./aboutHow to Analyze Poems.html">
+						How to Analyze a Poem		</a><br>
+					<a href="./inMovies.html">
+						Poetry in Movies		</a></hp6>		
+				</div>
+			</div>
+		</div>
+		<!----------END------------------------>
+	</div>
+</div>
+<!----------container----------->
+
+<script src="../poems/surpriseMe.js"></script>
+<script src="../searchPoem.js"></script>
+<script src="../poetry.js"></script>
+
+</body>
+</html>
