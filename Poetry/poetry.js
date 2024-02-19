@@ -58,6 +58,7 @@ function sortTable(n) {
 //--featured poem--------------*//
 var urls2 = [
 	"./featured/A Father's Prayer.html",
+	"./featured/A Man's Requirements.html",
 	"./featured/A Prayer.html",
 	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
@@ -158,6 +159,7 @@ setInterval(displayRandomFile, 20000);
 var urls3 = 
 	[
 	"./poems/A Father's Prayer.html",
+	"./poems/A Man's Requirements.html",
 	"./poems/A Prayer.html",
 	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
