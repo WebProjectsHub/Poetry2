@@ -1,103 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>File Not Foound</title>
-   <link rel="stylesheet" href="https://webprojectshub.github.io/WebProjects/Poetry/poetry.css">
-   <link rel="stylesheet" href="https://webprojectshub.github.io/WebProjects/Poetry/about/about.css">
+	<title>
+File Not Found
+	</title>
+   <link rel="stylesheet" href="./Poetry/poetry.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
-<style>
-/*---------------Style the font----------------------*/
-@font-face
-	{
-	font-family: 'Sriracha Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Sriracha Regular'), url('https://webprojectshub.github.io/WebProjects/Assets/fonts/Sriracha/Sriracha-Regular.woff') format('woff');
-	}
-@font-face 
-	{
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Raleway'), url('https://webprojectshub.github.io/WebProjects/Assets/fonts/Raleway/Raleway-Medium.woff') format('woff');
-	}
-@font-face 
-	{
-	font-family: 'Material Symbols Outlined';
-	font-style: normal;
-	src: url(https://webprojectshub.github.io/WebProjects/Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
-	}
-.background
-	{
-	position:fixed;
-	width:100vw;
-	height:100vh;
-	-webkit-background-image:url(https://webprojectshub.github.io/WebProjects/Assets/images/Ars_Poetic-bg_02.jpg);
-	background-image:url(https://webprojectshub.github.io/WebProjects/Assets/images/Ars_Poetic-bg_02.jpg);
-	background-color:silver;
-	background-size: cover;
-	background-position:0% 0%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	z-index:-1;
-	}
-
-.mainrightTitle
-	{
-	display:flex;
-	align-items:center;
-	height:50px;
-	}
-
-.mainleftTitle
-	{
-	display:flex;
-	align-items:center;
-	}
-</style>
 <body>
 <!----------background---------->
 <div class="background">
 </div>
-<!----------background---------->
+<!----------END background------>
 <!----------container----------->
 <div class="container">
-	<!----------heading----------->
-	<div class="heading">
-		<div class="left">
-			<button id="b1"><a href="https://webprojectshub.github.io/WebProjects/Poetry/Poetry.html">
-				Home
-			</a></button>
-			<button id="bm"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/about.html">
-				About
-			</a></button>
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='./Poetry/Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='./Poetry/about/about.html';">
+				</a></button>
 		</div>
-		<div class="right">
-			<button id="bm" onclick="openRandomPage()">
-				<a href=#>Surprise me!</a>
-			</button>
-                        <input  type="text" id="iSearch" onkeyup="searchfunc()" placeholder="Search title..." title="Search title" disabled>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<iframe id="searchIframe" scrolling="no" src="./Poetry/search.html"></iframe>
 		</div>
-	</div>
-	<!----------END--------------->
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
 	<!----------webname----------->
-	<div class="webname">		<a href="https://webprojectshub.github.io/WebProjects/Poetry/Poetry.html">
-		<h>Ars Poetica</h>	</a>
+	<div class="webname">
+		<iframe src="./Poetry/webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
 	</div>
-	<!----------END--------------->
-	<!----------main-------------->
-	<div class="main">
-		<!----------poem of the day------------>
-		<div class="mainleft">
-			<div class="mainleftTitle" style="margin-top:20px; text-align:center; height: unset;">
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainAbout">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftAbout">
+			<div class="poemTitle" id="poemTitle" style="margin-top:20px; text-align:center; height: unset;">
 				<h5>
 					Oops! We can't seem to find the page you're looking for.<br><br>
 				</h5>
 			</div>
-			<div id="contents">
+
+			<div class="aboutContent" id="aboutContent">
 				<p15>
 You might have typed the wrong URL, clicked on a broken link, or the page has been moved or deleted.
 <br><br>
@@ -106,19 +64,16 @@ Don't worry, you can still enjoy our website by doing one of the following:
 <br><br>
 <ul>
 	<li>
-Go back to the <a href="https://webprojectshub.github.io/WebProjects/Poetry/Poetry.html"><b>home</b></a> page and explore our poems, essays, reviews and resources.
+Go back to the <a href="./Poetry/Poetry.html"><b>home</b></a> page and explore our poems, essays, reviews and resources.
 	</li>
 	<li>
 Use the search box at the top right corner to find what you're looking for.
 	</li>
 	<li>
-Browse our poems by <a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byPoem.html"><b>poem</b></a>, <a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byAuthor.html"><b>author</b></a>, or <a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byTopic.html"><b>topic</b></a>.
+Browse our poems by <a href="./Poetry/about/byPoem.html"><b>poem</b></a>, <a href="./Poetry/about/byAuthor.html"><b>author</b></a>, or <a href="./Poetry/about/byTopic.html"><b>topic</b></a>.
 	</li>
 	<li>
-Check out our <a href=# onclick="openRandomPage()"><b>Surprise Me!</b></a> feature and let us generate a random poem for you.
-	</li>
-	<li>
-Learn more <a href="https://webprojectshub.github.io/WebProjects/Poetry/about/about.html"><b>about</b></a> what is poetry, history of poetry, elements of poetry, and how to analyze a poem.
+Learn more <a href="./Poetry/about/about.html"><b>about</b></a> what is poetry, history of poetry, elements of poetry, and how to analyze a poem.
 	</li>
 </ul>
 <br>
@@ -129,44 +84,49 @@ We apologize for any inconvenience and hope you have a great time exploring the 
 			</div>
 
 		</div>
-		<!----------END------------------------>
-		<div class="mainright">
-			<div class="mainrighttop">
-				<button id="b1"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byPoem.html">
-					Browse by Poem
-				</a></button>
-				<button id="bm2"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byAuthor.html">
-					Browse by Author
-				</a></button>
-				<button id="b1"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/byTopic.html">
-					Browse by Topic
-				</a></button>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightAbout">
+			<!---right top-------------->
+			<div class="mainRightAboutTop" id="mainRightAboutTop">
+				<button id="btnPoem" onclick="window.location.href='./Poetry/about/byPoem.html';">
+					</button>
+				<button id="btnAuthor" onclick="window.location.href='./Poetry/about/byAuthor.html';">
+					</button>
+				<button id="btnTopic" onclick="window.location.href='./Poetry/about/byTopic.html';">
+					</button>
 			</div>
-			<div class="mainrightquote">
+			<!---END right top---------->
+			<!---right bot-------------->
+			<div class="mainRightAboutBot" id="mainRightAboutBot">
 				<div class="mainrightTitle">
 					<h6>Other Topics</h6>
 				</div>
 				<div id="topics">
-					<hp6 style="font-family:unset;"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/aboutWhat is Poetry.html">
+					<hp6><a href="./Poetry/about/aboutWhat is Poetry.html">
 						What is Poetry			</a><br>
-					<hp6 style="font-family:unset;"><a href="https://webprojectshub.github.io/WebProjects/Poetry/poems/History of Poetry.html">
+					<hp6><a href="./Poetry/poems/History of Poetry.html">
 						History of Poetry		</a><br>
-					<hp6 style="font-family:unset;"><a href="https://webprojectshub.github.io/WebProjects/Poetry/about/aboutElements of Poetry.html">
+					<hp6><a href="./Poetry/about/aboutElements of Poetry.html">
 						Elements of Poetry		</a><br>
-					<a href="https://webprojectshub.github.io/WebProjects/Poetry/about/aboutHow to Analyze Poems.html">
+					<a href="./Poetry/about/aboutHow to Analyze Poems.html">
 						How to Analyze a Poem		</a><br>
-					<a href="https://webprojectshub.github.io/WebProjects/Poetry/about/inMovies.html">
+					<a href="./Poetry/about/inMovies.html">
 						Poetry in Movies		</a></hp6>		
 				</div>
 			</div>
+			<!---END right bot---------->
 		</div>
+		<!----------END Main right---->
 	</div>
+	<!----------END Main body----->
 </div>
-<!----------container----------->
+<!----------END container------->   
 
-<script src="https://webprojectshub.github.io/WebProjects/Poetry/poems/surpriseMe.js"></script>
-<script src="https://webprojectshub.github.io/WebProjects/Poetry/searchPoem.js"></script>
-<script src="https://webprojectshub.github.io/WebProjects/Poetry/poetry.js"></script>
+
+<script src="./Poetry/searchPoem.js"></script>
+<script src="./Poetry/surpriseMeHome.js"></script>
+
 
 </body>
 </html>
