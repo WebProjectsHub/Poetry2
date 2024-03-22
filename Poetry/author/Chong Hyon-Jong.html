@@ -1,78 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Chong Hyon-Jong</title>
+	<title>
+Chong Hyon-Jong
+	</title>
    <link rel="stylesheet" href="../poetry.css">
-   <link rel="stylesheet" href="../about/about.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="../../Assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../../Assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../Assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="../../Assets/images/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
 </head>
 <body>
 <!----------background---------->
 <div class="background">
 </div>
-<!----------background---------->
+<!----------END background------>
 <!----------container----------->
 <div class="container">
-	<!----------heading----------->
-	<div class="heading">
-		<div class="left">
-			<button id="b1"><a href="../Poetry.html">
-				Home
-			</a></button>
-			<button id="bm"><a href="../about/about.html">
-				About
-			</a></button>
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
 		</div>
-		<div class="right">
-			<button id="bm" onclick="openRandomPage()">
-				<a href=#>Surprise me!</a>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
 			</button>
-			<input 	type="text" id="termsearch" onkeyup="searchfunc()" placeholder="Search title..." title="Search title">
-			<ul id="poemList">
-				<li><a href="../poems/An Empty Meadow.html">An Empty Meadow
-					</a></li>
-				<li><a href="../poems/Do Not Go Gentle Into That Good Night.html">Do Not Go Gentle Into That Good Night
-					</a></li>
-				<li><a href="../poems/In a London Drawingroom.html">In a London Drawingroom
-					</a></li>
-				<li><a href="../poems/Into the Fray.html">Into the Fray
-					</a></li>
-				<li><a href="../poems/London.html">London
-					</a></li>
-				<li><a href="../poems/Mad Girl's Love Song.html">Mad Girl's Love Song
-					</a></li>
-				<li><a href="../poems/The Road Not Taken.html">The Road Not Taken
-					</a></li>
-				<li><a href="../poems/The Visitor.html">The Visitor
-					</a></li>
-				<li><a href="../poems/.html">The poem1
-					</a></li>
-			</ul>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
+			</button>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
+			</button>
+			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
 		</div>
-	</div>
-	<!----------END--------------->
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
 	<!----------webname----------->
-	<div class="webname">		<a href="../Poetry.html">
-		<h>Ars Poetica</h>	</a>
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
 	</div>
-	<!----------END--------------->
-	<!----------main-------------->
-	<div class="main">
-		<!----------poem of the day------------>
-		<div class="mainleft">
-			<div class="mainleftTitle">
-				<h6>About the Author</h6>
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainAbout">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftAbout">
+			<div class="poemTitle" id="poemTitle">
+				<h6>
+					About the Author
+				</h6>
 			</div>
-			<div id="contents">
+
+			<div class="aboutContent" id="aboutContent">
 				<p15>
 <b>Chong Hyon-Jong</b> (1939-2021) was a South Korean poet who is known for his work on the themes of love, loss, and loneliness. He was born in Seoul, South Korea, in 1939. He studied philosophy at Yonsei University, and he began publishing his poems in the early 1960s.
 <br><br>
@@ -118,59 +112,65 @@ Chong Hyon-Jong's poetry is still widely read and appreciated in South Korea. Hi
 					<p>
 <b>Google Bard chat prompt:</b> Create 1 page summary of the life of the poet Chong Hyon-Jong.
 					</p>
-					
-				</div>
 
-		</div>
-		<!----------END------------------------>
-		<!----------quote of the day----------->
-		<div class="mainright">
-			<div class="mainrighttop">
-				<button id="b1"><a href="../about/byPoem.html">
-					Browse by Poem
-				</a></button>
-				<button id="bm2"><a href="../about/byAuthor.html">
-					Browse by Author
-				</a></button>
-				<button id="b1"><a href="../about/byTopic.html">
-					Browse by Topic
-				</a></button>
 			</div>
-			<div class="mainrightquote">
+		</div>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightAbout">
+			<!---right top-------------->
+			<div class="mainRightAboutTop" id="mainRightAboutTop">
+				<button id="btnPoem" onclick="window.location.href='../about/byPoem.html';">
+					</button>
+				<button id="btnAuthor" onclick="window.location.href='../about/byAuthor.html';">
+					</button>
+				<button id="btnTopic" onclick="window.location.href='../about/byTopic.html';">
+					</button>
+			</div>
+			<!---END right top---------->
+			<!---right bot-------------->
+			<div class="mainRightAboutBot" id="mainRightAboutBot">
+				<!---Author and work-------------->
 				<div class="mainrightTitle">
 					<h6>Chong Hyon-Jong</h6>
 				</div>
 				<div id="topics">
 					<hp6><a href="../poems/The Visitor.html">
-						The Visitor	</a><br>
+						The Visitor	</a>
+					</hp6>
 				</div>
+				<br>
+				<!---END Author and work---------->
+				<!---Other Topics----------------->
 				<div class="mainrightTitle">
 					<h6>Other Topics</h6>
 				</div>
 				<div id="topics">
-					<hp6>
-					<a href="../about/aboutWhat is Poetry.html">
+					<hp6><a href="./aboutWhat is Poetry.html">
 						What is Poetry			</a><br>
 					<hp6><a href="../poems/History of Poetry.html">
 						History of Poetry		</a><br>
-					<hp6><a href="../about/aboutElements of Poetry.html">
+					<hp6><a href="./aboutElements of Poetry.html">
 						Elements of Poetry		</a><br>
-					<a href="../about/aboutHow to Analyze Poems.html">
+					<a href="./aboutHow to Analyze Poems.html">
 						How to Analyze a Poem		</a><br>
-					<a href="../about/inMovies.html">
-						Poetry in Movies		</a>
-					</hp6>		
+					<a href="./inMovies.html">
+						Poetry in Movies		</a></hp6>		
 				</div>
+				<!---END Other Topics------------->
 			</div>
+			<!---END right bot---------->
 		</div>
-		<!----------END------------------------>
+		<!----------END Main right---->
 	</div>
+	<!----------END Main body----->
 </div>
-<!----------container----------->
+<!----------END container------->   
 
-<script src="../poems/surpriseMe.js"></script>
+
 <script src="../searchPoem.js"></script>
-<script src="../poetry.js"></script>
+<script src="surpriseMe.js"></script>
+
 
 </body>
 </html>

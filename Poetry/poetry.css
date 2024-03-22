@@ -1,355 +1,45 @@
 /*---------------Color style------------------------*/
 /*------https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d80032----*/
-/*---------------------------------------------------*/
-/*------.background				-----*/
-/*------.container				-----*/
-/*------	.heading			-----*/
-/*------		.left			-----*/
-/*------		.right			-----*/
-/*------	.webname			-----*/
-/*------		name			-----*/
-/*------		.breadCrumbs		-----*/
-/*------	.main				-----*/
-/*------		.mainleft		-----*/
-/*------			.mainleftTitle	-----*/
-/*------			.mainleftPoem	-----*/
-/*------		.mainright		-----*/
-/*------			.mainrightTop	-----*/
-/*------			.mainrightQuote	-----*/
-/*---------------------------------------------------*/
-
+/*------
+1. html and body height and width
+2. background
+3. container
+4. link style
+5. general text size adjustment
+6. header
+7. webname
+8. main body
+	- poem css
+	- about css
+9. iframe
+	- search iframe
+	- poem iframe
+	- quote iframe
+10. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- quote
+		- featured poem
+		- poem
+		- about
+11. buttons
+	- poem css
+12. colors
+13. tables
+14. accordion
+-------*/
+/*---01---*/
 /*---------------set html height to full page--------*/
-html
-	{
-	-ms-text-size-adjust: 100%;		/*---Prevent iOS text size adjust after-*/
-	-webkit-text-size-adjust: 100%; 	/*orientation change, without disabling-*/
-	}					/*user zoom.---*/
 html, body
 	{
 	width:100%;
 	height:100%;
 	margin: 0;
 	}
-/*---------------set html height to full page--------*/
-/*---------------Req---------------------------------*/
-* 	{box-sizing: border-box;}
-/*---------------Req---------------------------------*/
-/*---------------Style the links---------------------*/
-a
-	{
-	text-decoration:none;
-	color:unset;
-	}
-/*---------------Style the links---------------------*/
-/*---------------Style the font----------------------*/
-@font-face
-	{
-	font-family: 'Sriracha Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Sriracha Regular'), url('../Assets/fonts/Sriracha/Sriracha-Regular.woff') format('woff');
-	}
 
-@font-face
-	{
-	font-family: 'Fondamento';
-	font-style: italic;
-	font-weight: normal;
-	src: local('Fondamento'), url('../Assets/fonts/Fondamento/Fondamento-Italic.ttf') format('truetype');
-	}
-
-@font-face 
-	{
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Raleway'), url('../Assets/fonts/Raleway/Raleway-Medium.woff') format('woff');
-	}
-
-@font-face 
-	{
-	font-family: 'Material Symbols Outlined';
-	font-style: normal;
-	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
-	}
-
-html	{	font-size: 62.5%;	} /*---10px--*/
-body 	{
-	line-height: 1.6;
-	font-family: 'Raleway', sans-serif;
-	overflow:auto;
-	}
-/*---------------Style the font----------------------*/
-/*---------------Style the texts---------------------*/
-p	{
-	margin-top: 0;
-	}
-
-p2	{	
-	font-family: 'Sriracha Regular', sans-serif;
-	}
-
-p12	{ 
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.25rem;	/*---12px--*/
-	letter-spacing: .1rem;
-	}
-
-p15	{ 
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;	/*---15px--*/
-	color:#222;
-	}
-
-h1, h2, h3, h4, h5, h6 
-	{
-	margin-top: 0;
-	margin-bottom: 2rem;
-	}
-
-h1, hp1	{ font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}	/*---40px--*/
-h2, hp2	{ font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }	/*---36px--*/
-h3, hp3	{ font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }	/*---30px--*/
-h4, hp4	{ font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }	/*---24px--*/
-h5, hp5	{ font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }	/*---18px--*/
-h6, hp6	{ font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }		/*---15px--*/
-
-h7, hp7	/*---12px--*/
-	{ 
-	font-size: 1.2rem;
-	font-weight:bold;
-	padding-left:15px;
-	}		
-
-hp1, hp2, hp3, hp4, hp5, hp6 
-	{
-
-	font-family: 'Sriracha Regular', sans-serif;
-	/*--
-	font-family: 'TexGyreChorus', sans-serif;
-	--*/
-	margin-top: 0;
-	margin-bottom: 2rem;
-	}
-
-h	/*---website name---*/	
-	{
-	font-family: 'Sriracha Regular', sans-serif;
-	font-size: 4.0rem;
-	line-height: unset;
-	letter-spacing: -.1rem; 
-	margin:0;
-	color:#EF233C;
-	}
-
-
-/* Larger than phablet */
-@media (min-width: 550px) 
-{
-	h1 { font-size: 5.0rem; }	/*---50px--*/
-	h2 { font-size: 4.2rem; }	/*---42px--*/
-	h3 { font-size: 3.6rem; }	/*---36px--*/
-	h4 { font-size: 3.0rem; }	/*---30px--*/
-	h5 { font-size: 2.4rem; }	/*---24px--*/
-	h6 { font-size: 1.5rem; }	/*---15px--*/
-}
-/*---------------Style the texts---------------------*/
-/*---------------Style colors------------------------*/
-.mainleft, .mainrightquote
-	{background-color:#EDF2F4;}
-
-#mainLeftBlur, #mainRightBlur
-	{
-	background-color:rgba(237, 242, 244, 0.35);
-	backdrop-filter: blur(8px);
-	-webkit-backdrop-filter: blur(8px);
-	}
-	
-.breadCrumbs a:hover
-	{
-	color:#D80032;
-	font-weight:bold;
-	}
-
-hp6 a:hover, h6 a:hover
-	{
-	color:#D80032;
-	font-weight:bold;
-	}
-
-hp5 a:hover, h5 a:hover, li a:hover
-	{
-	color:#D80032;
-	}
-hp5 >div
-	{
-	text-indent: -1.5em;
-	padding-left: 1.5em;
-	}
-
-/*---------------Style colors------------------------*/
-/*---------------Style buttons + input + iframe------*/
-button
-	{
-	height:100%;
-	border:none;
-	border-radius:5px;
-	padding:0 10px 0 10px;
-	background-color:#2B2D42;
-	color:#EDF2F4;
-	}
-button:hover	
-	{
-	background-color:#D80032;
-	color:black;
-	box-shadow: 0 0 10px white;
-	}
-#bm, #bm2, #search
-	{margin:0 3px 0 3px;}
-
-#bprev, #bnext
-	{
-	width:35px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	}
-
-#bprev
-	{
-	margin:0 0 0 3px;
-	}
-
-#bnext
-	{
-	margin:0 3px 0 0;
-	}
-
-input
-	{
-	display:flex;
-	height:100%;
-	width:100%;
-	flex:1;
-	border-radius:5px;
-	padding-left:10px;
-	border: 1px solid #2B2D42;
-	}
-input[type=text]:focus
-	{
-	background-color:#EDF2F4;
-	color:#2B2D42;
-	font-weight:bold;
-	}
-#poemList
-	{
-	width:auto;
-	height:auto;
-	list-style-type: none;
-	background-color: rgba(237, 242, 244, 0.8);
-	height: max-content;
-	margin:0;
-	margin-top:-5px;
-	padding:10px 5px 5px 5px;
-	border-radius:5px;
-	border-top-left-radius:0;
-	border-top-right-radius:0;
-	box-shadow:0px 2px 5px black;
-	}
-
-#poemList li:hover
-	{
-	font-weight:bold;
-	}
-
-.material-symbols-outlined 
-	{
-	font-family: 'Material Symbols Outlined';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 24px;  /* Preferred icon size */
-	display: inline-block;
-	line-height: 1;
-	text-transform: none;
-	letter-spacing: normal;
-	word-wrap: normal;
-	white-space: nowrap;
-	direction: ltr;
-	color:white;
-	}
-
-pre
-	{
-	font-family: 'Sriracha Regular', sans-serif;
-	height:100%;
-	}
-
-Iframe	//*--iframe--*//
-	{
-	width:100%;
-	height:100%;
-	border:none;
-	}
-
-#poemIframe
-	{
-	width:100%;
-	height:calc(100% - 70px);
-	border:none;
-	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-	-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-	mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-	mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-	}
-#quoteIframe
-	{
-	width:100%;
-	height:calc(100% - 70px);
-	border:none;
-	}
-#quote, #author
-	{
-	animation-name:animfade;
-	animation-duration:1.5s;
-	animation-timing-function: ease-in-out;
-	}
-#quote hp6::before
-	{
-	content:"“";
-	}
-#quote hp6::after
-	{
-	content:"”";
-	}
-
-@keyframes animfade
-	{
-	from	{opacity:0.4;	}
-	to	{opacity:1;	}
-	}
-
-#searchIframe
-	{
-	overflow-clip-margin: content-box !important;
-	border-width: 0;
-	border-style: none;
-	border-color: initial;
-	border-image: unset;
-	overflow: clip !important;
-	height:max-content;
-	z-index:2;
-	width:50%;
-	}
-
-#iSearch
-	{
-	display:flex;
-	flex-direction:column;
-	height:35px;
-	position:relative;
-	z-index:3;
-	}
-/*---------------Style buttons + input + iframe------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
 /*---------------Style background--------------------*/
 .background
 	{
@@ -365,298 +55,1023 @@ Iframe	//*--iframe--*//
 
 	z-index:-1;
 	}
-/*---------------Style background--------------------*/
+/*---------------END Style background----------------*/
+/*---03---*/
 /*---------------Style container---------------------*/
 .container
 	{
 	width:800px;
-	height:100vh;
+	height:100%;
+	
+	min-height:350px;
 	position: absolute;
 	top: 0;
 	left:50%;
 	transform: translateX(-50%);
-
 	padding:20px 0;
+
+
 	}
-/*---------------Style container---------------------*/
-/*---------------heading-----------------------------*/
-.heading
-	{
-	display:flex;
-	height:40px;
-	width:100%;
-	z-index:2;
-	position:relative;
+/*---------------END Style container-----------------*/
+/*---------------Req---------------------------------*/
+* 	{box-sizing: border-box;}
+/*---------------END Req-----------------------------*/
+/*---04---*/
+/*---------------Style the links---------------------*/
+a	{
+	text-decoration:none;
+	color:unset;
+	cursor:pointer;
+	}
+/*---------------END Style the links-----------------*/
+/*---05---*/
+/*---------------Text size adjustment----------------*/
+html	{
+	-ms-text-size-adjust: 100%;		
+	-webkit-text-size-adjust: 100%; 	
+	}
+	/*---Prevent iOS text size adjust after------*/
+	/*---orientation change, without disabling---*/
+	/*---user zoom.------------------------------*/
+
+html	{
+	font-size: 62.5%;
+	}
+	/*---10px--*/
+
+body 	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	overflow:auto;
+
 	}
 
-.left
+/*---------------END Text size adjustment------------*/
+/*---06---*/
+/*---------------Style Header------------------------*/
+.header	{
+	display:flex;
+	align-items:center;
+	width:100%;
+	height:40px;
+	z-index:4;
+	position:relative;
+	top:0;
+
+	}
+	/*-------Left--------------------------------*/
+.headLeft
 	{
 	display:flex;
 	width:50%;
-	height:35px;
+	height:100%;
 	justify-content:flex-start;
 	}
-.right
+	/*-------END Left----------------------------*/
+	/*-------Right-------------------------------*/
+.headRight
 	{
 	display:flex;
 	width:50%;
-	height:35px;
+	height:100%;
 	justify-content:flex-end;
 	}
-
-/*---------------heading-----------------------------*/
-/*---------------webname-----------------------------*/
+	/*-------END Right---------------------------*/
+/*---------------END Style Header--------------------*/
+/*---07---*/
+/*---------------Style Webname-----------------------*/
 .webname
-	{
-	height:80px;
-	width:100%;
-	margin-bottom:5px;
-	}
-.webname h
-	{
-	font-family:'Raleway';
-	text-shadow: 0 0 5px black;
-	}
-.webname h7
-	{
-	font-family:'Raleway';
-	font-size:1.5rem;
-	text-shadow: 0 0 15px black;
-	color:red;
-	font-weight:bold;
-	}
-#heartBeat
-	{
-	font-family: 'Material Symbols Outlined';
-	content:"favorite";
-	font-variation-settings: "FILL" 1;
-
-	animation-name:heartBeat;
-	animation-duration:0.8s;
-	animation-iteration-count: infinite;
-/*--	animation-timing-function: ease-in-out;		--*/
-	animation-timing-function: cubic-bezier(0.9, 0, 0.0, 0.9);
-
-	width: 40px;
-	display: inline-flex;
-	align-items:center;
-	justify-content:center;
-	vertical-align:middle;
-	}
-
-#heartBeat :hover
-	{
-	text-shadow: 0 0 15px yellow;
-	}
-
-@keyframes heartBeat
-	{
-  	0%	{	transform: scale(1);	}
-	25% 	{	transform: scale(1.2);	}
-	50%	{	transform: scale(0.95);	}
-	75%	{	transform: scale(1.6);	}
-	100	{	transform: scale(1);	}
-	}
-
-
-/*---------------webname-----------------------------*/
-/*---------------main--------------------------------*/
-.main
-	{
-	display:flex;
-	width:100%;
-	height:calc(100vh - 200px);
-	}
-.mainleft
-	{
-	width:70%;
-	/*---height:100%;---*/
-	border-radius:5px;
-	margin-right:5px;
-	padding:0 20px;
-	}
-.mainright
-	{
-	width:30%;
-	height:100%;
-	}
-
-.mainrightTitle, .mainleftTitle
-	{
-	display:flex;
-	align-items:center;
-	height:50px;
-	}
-.mainrightTitle h6, .mainleftTitle h6
-	{	margin:0	}
-
-
-/*---------------main------------------------------*/
-/*---------------main-left-------------------------*/
-.mainleftPoem
 	{
 	display:flex;
 	flex-direction:row;
+	height:80px;
+	width:100%;
+	padding-bottom:5px;
+	}
+	/*-------WebLeft-----------------------------*/
+.webLeft
+	{
+	display:flex;
+	height:100%;
+	width:70%;
+	}
+	/*-------END WebLeft-------------------------*/
+	/*-------WebRight----------------------------*/
+.webRight
+	{
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	width:30%;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:5px;
+	}
+	/*-------END WebRight------------------------*/
+/*---------------End Style Webname-------------------*/
+/*---08---*/
+/*---------------Style main body---------------------*/
+.main, #mainAbout
+	{
+	display:flex;
+	width:100%;
+	height:calc(100% - 120px);
+
+	}
+	/*-------mainLeft----------------------------*/
+.mainLeft
+	{
+	display:flex;
+	flex-direction:column;
+	width:70%;
+	margin-right:5px;
+	padding:10px 20px;
+	border-radius:5px;
+	}
+	/*-------END mainLeft------------------------*/
+	/*-------mainRight---------------------------*/
+.mainRight, #mainRightAbout
+	{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	/*--height:100%;--*/
+	}
+.mainRightTop, #mainRightAboutTop
+	{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width:100%;
+	min-height:60px;
+	/*--height:50px; --*/
+	margin-bottom:10px;
+	}
+.mainRightBot, #mainRightAboutBot
+	{
+	display:flex;
+	flex-direction:column;
 	width:100%;
 	height:100%;
+	border-radius:5px;
+	padding:10px 20px 10px 20px;
+	overflow:auto;
 	}
-/*---------------main-left-------------------------*/
-/*---------------main-right------------------------*/
-.mainrighttop
+
+#mainBlur, #mainLeftAbout, #mainRightAboutBot
 	{
-	display:inline-flex;
-	height:50px;
-	align-items:center;
-	justify-content:space-between;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	}
-.mainrighttop button
-	{	width:33.33%;	}
-.mainrightquote
+	/*-------END mainRight-----------------------*/
+	/*-------Poem css----------------------------*/
+#mainPoem
+	{
+	flex-direction:row;
+	flex-wrap:nowrap;
+	height:unset;
+	width:100%;
+	}
+#mainLeftPoem
+	{
+	width:calc(100% - 70px);
+	height:100%;
+	}
+#mainRightPoem
+	{
+	width:80px;
+	}
+	/*-------END Poem css------------------------*/
+	/*-------about css---------------------------*/
+#mainAbout
+	{
+	height:unset;
+	}
+#aboutContent
+	{
+	text-align:justify;
+	}
+#author {
+	max-width: 300px;
+	align-self:flex-end;
+
+	}
+	/*-------END about css-----------------------*/
+	/*-------about tables css--------------------*/
+
+
+	/*-------END about tables css----------------*/
+/*---------------END Style main body-----------------*/
+/*---09---*/
+/*---------------Style iframe/input------------------*/
+iframe
 	{
 	width:100%;
-	height: calc(100% - 55px);
-	border-radius:5px;
-	margin-top:5px;
-	padding:0 20px;
+	height:100%;
+	overflow:hidden;
+	border:none;
+	align-items:center;
+	justify-content:center;
 	}
-/*---------------main-right------------------------*/
+#webnameIframeBody
+	{
+	display:flex;
+	flex-direction:row;
+	}
+	/*-------search iframe-----------------------*/
+#searchIframe
+	{
+	overflow-clip-margin: content-box !important;
+	border-width: 0;
+	border-style: none;
+	border-color: initial;
+	border-image: unset;
+	overflow: clip !important;
+	height:max-content;
+	z-index:2;
+	width:60%;
+	}
+#iSearch
+	{
+	width:100%;
+	height:35px;
+	display:flex;
+	flex:1;
+	flex-direction:column;
+	position:relative;
+	border-radius:5px;
 
-/*---------------RESPONSIVE------------------------*/
+	border: 1px solid #2B2D42;
+	padding-left:10px;
+	z-index:3;
+	}
 
-/* Larger than tablet */
-@media (max-width: 800px) 
-{
-	.container
-		{
-		width:calc(100% - 20px);
-		height:unset;
-		}
-}
+input[type=text]:focus
+	{
+	font-weight:bold;
+	}
 
-/* Larger than tablet */
-@media (max-width: 750px) 
-{
-	.container
-		{
-		width:calc(100% - 20px);
-		height:unset;
-		}
-	.main
-		{
-		flex-direction:column;	/*--column-reverse--*/
-		}
-	.mainright
-		{
-		display:flex;
-		flex-direction:row;
-		width:100%;
-		height:200px;
-		margin-top:5px;		/*--remove item--*/
-		}
-	.mainrighttop
-		{
-		display:flex;
-		flex-direction:column;
-		align-items:unset;
-		height:100%;
-		}
-	#bm2	{
-		margin:3px 0;
-		width:80px;
-		}
-	#b1, bm2
-		{
-		width:80px;
-		}
-	.mainrightquote
-		{
-		width:100%;
-		height:100%;
-		margin-top:0;
-		margin-left:5px;
-		}
-	.mainleft
-		{
-		width:100%;
-		margin-right:0;
-		margin-top:5px;
-		padding:0 20px;
-		}
-}
+#poemList
+	{
+	width:auto;
+	height:auto;
+	list-style-type: none;
+	height: max-content;
+	margin:0;
+	margin-top:-5px;
+	padding:10px 5px 5px 5px;
+	border-radius:5px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	box-shadow:0px 2px 5px black;
+	z-index:5;
+	}
 
-/* Larger than tablet */
-@media (max-width: 490px) 
-{
-	.container
-		{
-		height:unset;
-		}
-	.heading
-		{
-		flex-direction:column;
-		height:80px;
-		}
-	.left
-		{
-		width:100%;
-		height:40px;
-		justify-content:unset;
-		padding-bottom:5px;
-		}
-	.right
-		{
-		width:100%;
-		height:40px;
-		justify-content:unset;
-		}
-	.left #b1, .left #bm
-		{flex:1;}
-	.left #bm
-		{margin-right:0;}
+#poemList li:hover
+	{
+	font-weight:bold;
+	}
 
-	.right #bm
-		{
-		flex:1;
-		margin-left:0
+	/*-------END search iframe-------------------*/
+	/*-------poem iframe-------------------------*/
+#poemIframe
+	{
+	width:100%;
+	
+	overflow:hidden;
+	border:none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+	-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+	mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+
+	}
+	/*-------END poem iframe---------------------*/
+	/*-------quote iframe------------------------*/
+#quoteIframe
+	{
+	overflow:hidden;
+	height:100%;
+	}
+
+	/*-------END quote iframe--------------------*/
+
+/*---------------END Style iframe/input--------------*/
+
+/*---10---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+@font-face
+	{
+	font-family: 'NotoSansSymbols';
+	src: local('NotoSansSymbols'), url('../Assets/fonts/Noto_Sans_Symbols/NotoSansSymbols-VariableFont_wght.ttf') format('truetype');
+	}
+
+@font-face 
+	{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), url('../Assets/fonts/Raleway/Raleway-Medium.woff') format('woff');
+	}
+
+@font-face 
+	{
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url('..//Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+	}
+@font-face 
+	{
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
+	}
+
+html	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	}
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+p	{
+	margin: 0;
+	line-height:1.6;
+	}
+
+h	/*---website name---*/	
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	font-size: 4.0rem;
+	font-weight:700;
+	line-height: unset;
+	letter-spacing: -.1rem; 
+	margin:0;
+	}
+
+h1, h2, h3, h4, h5, h6,
+hp1, hp2, hp3, hp4, hp5, hp6
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	}
+
+h1, hp1	{ font-size: 4.0rem; line-height: 1.2;  }	/*---40px--*/
+h2, hp2	{ font-size: 3.6rem; line-height: 1.25; }	/*---36px--*/
+h3, hp3	{ font-size: 3.0rem; line-height: 1.3;  }	/*---30px--*/
+h4, hp4	{ font-size: 2.4rem; line-height: 1.35; }	/*---24px--*/
+h5, hp5	{ font-size: 1.8rem; line-height: 1.5;  }	/*---18px--*/
+h6, hp6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
+
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+		/*-------quote Font size-------------*/
+#quote hp6
+	{
+	font-size: 1.2rem;
+	font-weight:400;
+	}
+#quote hp6::before
+	{
+	content:"“";
+	}
+#quote hp6::after
+	{
+	content:"”";
+	}
+		/*-------END quote Font size---------*/
+		/*-------featured poem Font size-----*/
+#author hp5
+	{
+	font-size: 1.4rem;
+	}
+#poemAuthor
+	{
+	margin-bottom:1rem;
+	}
+#poemAuthor hp5
+	{
+	font-size: 1.4rem;
+	font-style:italic;
+	}
+#poemContent hp5, 
+	{
+	font-size: 1.4rem;
+	}
+		/*-------END featured poem Font size-*/
+		/*-------Poem Font size--------------*/
+hp5 >div
+	{
+	text-indent: -1.5em;
+	padding-left: 1.5em;
+	}
+#mainLeftPoem #poemAuthor
+	{
+	font-style:italic;
+	margin-bottom:1rem;
+	}
+#mainLeftPoem #poemAuthor::before
+	{
+	font-size: 1.4rem;
+	content:"by";
+	}
+#mainLeftPoem #poemContent hp5
+	{
+	font-size: 1.8rem;
+	}
+		/*-------END Poem Font size----------*/
+		/*-------About Font size-------------*/
+p15	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	}
+p12	{
+	font-size: 1.2rem;
+	line-height: 1.5;
+	}
+
+
+		/*-------END About Font size---------*/
+	/*-------END Custom Font size----------------*/
+
+/*---------------END Style fonts---------------------*/
+/*---11---*/
+/*---------------Style buttons-----------------------*/
+button
+	{
+	height:35px;
+	border-radius:5px;
+	border:none;
+	padding:0 10px 0 10px;
+	font-size: 1.20rem;
+
+	font-family: 'NotoSansSymbols', sans-serif;
+	line-height:1.5rem;
+	cursor:pointer;
+	}
+#btnHome
+	{
+	margin-right:3px;
+	}
+#btnHome::before
+	{
+	content:"Home";
+	}
+#btnAbout::before
+	{
+	content:"About";
+	}
+#btnSurprise
+	{
+	margin-right:3px;
+	width:70px;
+	}
+#btnSurprise::before
+	{
+	content:"Surprise me!";
+	}
+#btnAuthor, #btnPoem, #btnTopic	
+	{
+	width:calc((100%/3) - 2px);
+	height:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+#btnAuthor::before
+	{
+	content:"Browse by Author";
+	}
+#btnPoem::before
+	{
+	content:"Browse by Poem";
+	}
+#btnTopic::before
+	{
+	content:"Browse by Topic";
+	}
+#btnprev, #btnnext
+	{
+	margin-right:3px;
+	width: 45px;
+	font-size:24px;
+	padding:10px;
+	}
+#btnprev::before
+	{
+	content:"arrow_back";
+	}
+#btnnext::before
+	{
+	content:"arrow_forward";
+	}
+	/*-------Poem css----------------------------*/
+#btnP_Poem, #btnP_Author, #btnP_Topic
+	{
+	width:100%;
+	margin-bottom:2px;
+	height:60px;
+	}
+#btnP_Poem::before
+	{
+	content:"Browse by Poem";
+	}
+#btnP_Author::before
+	{
+	content:"Browse by Author";
+	}
+#btnP_Topic::before
+	{
+	content:"Browse by Topic";
+	}
+
+#btn_A_Author, #btn_A_Poem, #btn_A_Analysis
+	{
+	width:100%;
+	margin-bottom:2px;
+	height:40px;
+	font-size:24px;
+	}
+#btn_A_Related
+	{
+	width:100%;
+	height:40px;
+	font-size:24px;
+	}
+#btn_A_Author::before
+	{
+	content:"person";
+	}
+#btn_A_Poem::before
+	{
+	content:"wysiwyg";
+	}
+#btn_A_Analysis::before
+	{
+	content:"lightbulb";
+	}
+#btn_A_Related::before
+	{
+	content:"dynamic_feed";
+	}
+
+#spanCenter
+	{
+	display: inline-flex;
+	justify-content: center;
+	width: -webkit-fill-available;
+	}
+
+	/*-------END Poem css------------------------*/
+	/*-------symbols style-----------------------*/
+.material-symbols-outlined
+	{
+	font-family:Material Symbols Outlined;
+	}
+	/*-------END symbols style-------------------*/
+/*---------------END Style buttons-------------------*/
+/*---12---*/
+/*---------------Style colors------------------------*/
+/*--https://coolors.co/aad8b3-e0f4f9-f5fbfb-637455-88bd57-1f343f--*/
+/*--
+AAD8B3
+E0F4F9
+F5FBFB
+637455
+88BD57
+1F343F
+--*/
+/*---- Color Group1 AAD8B3 ----*/
+input[type=text]:focus
+	{
+	background-color:#AAD8B3;
+	}
+/*---- Color Group2 E0F4F9 ----*/
+#poemList
+	{
+	background-color: rgba(224,244, 249, 0.9);
+	}
+hp6 a:hover
+	{
+	color:#E0F4F9;
+	font-weight:900;
+	}
+/*---- Color Group3 #F5FBFB ----*/
+button:hover
+	{
+	border:0.5px solid #F5FBFB;
+	}
+h	/*---website name---*/	
+	{
+	text-shadow:0px 0px 10px #F5FBFB;
+	}
+#mainLeftPoem
+	{
+	background-color:#F5FBFB;
+	}
+tr a:hover
+	{
+	color:#F5FBFB;
+	}
+.panel
+	{
+	background-color:rgba(245, 251, 251, 0.25);
+	}
+/*---- Color Group4 637455 ----*/
+#mainBlur, #mainLeftAbout, #mainRightAboutBot
+	{
+	background-color:rgba(99, 116, 85, 0.35);
+	}
+button
+	{
+	background-color:#637455;
+	color:white;
+	}
+tr:hover td, .accordion
+	{
+	background-color: #637455;
+	}
+
+/*---- Color Group5 #88BD57 ----*/
+h :hover,
+	{
+	color:#88BD57;
+	}
+
+/*---- Color Group6 1F343F -----*/
+input[type=text]:focus, #poemList, h
+	{
+	color:#1F343F;
+	}
+button:hover
+	{
+	background-color:#1F343F;
+	color:white;
+	font-weight:700;
+	}
+h :hover	
+	{
+	text-shadow:0px 0px 5px #1F343F;
+	}
+#iSearch
+	{
+	border: 1px solid #1F343F;
+	}
+#poemAuthor hp5 :hover
+	{
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+	}
+p15 a:hover, .panel a:hover
+	{
+	color:#1F343F;
+	font-weight:900;
+	}
+
+td, th, .accordion, .accordion:first-child
+	{
+	border-bottom-color:#1F343F;
+	}
+.active, .accordion:hover
+	{
+	background-color:#1F343F;
+	}
+
+/*---- Color Group7 white -----*/
+#sort:hover
+	{	color:#D80032;		}
+
+/*---------------END Style colors--------------------*/
+/*---13---*/
+/*---------------Style tables------------------------*/
+table	{
+	width:100%;
+	border-collapse:collapse;
+	margin-bottom:20px;
+	}
+th	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	letter-spacing: 0;
+	} /*---based on h6--*/
+tr	{
+	font-size: 1.2rem;
+	line-height: 1.5;
+	letter-spacing: 0;
+	}
+td, th	
+	{
+	width:50%;
+	text-align:left;
+	padding:5px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	letter-spacing: 0.01rem;
+	}
+
+#sort
+	{	cursor:pointer;		}
+
+#simpleTable tr:hover td
+	{
+	background-color: unset;
+	}
+/*---------------END Style tables--------------------*/
+/*---14---*/
+/*---------------Style accordion---------------------*/
+.accordioncontainer
+	{
+	display:flex;
+	flex-direction:column;
+	margin-top:50px;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+	margin-bottom:20px;
+	}
+
+.accordion
+	{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+	height:30px;
+	border-radius:unset;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding-left:10px;
+	cursor: pointer;
+	transition: 0.4s;
+	color:black;
+	}
+
+
+.accordion:first-child
+	{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	}
+
+/* Add a background color to the button if it is clicked on 	---*/
+/* (add the .active class with JS), and when you move the 	---*/
+/* mouse over it (hover) 					---*/
+
+.active, .accordion:hover
+	{
+	color:white;
+	font-weight:bold;
+	}
+
+/* Add a symbol to each button to indicate whether the	---*/
+/* collapsible content is open or closed		---*/
+
+.accordion:after 
+	{
+	content: "\002B"; /*---Unicode character for "plus" sign (+)---*/
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	}
+
+.accordion.active:after 
+	{
+	content: "\2212"; /* ---Unicode character for "minus" sign (-) ---*/
+	color:white;
+	}
+
+.panel
+	{
+	display:flex;
+	flex-direction:column;
+	padding-left:20px;
+	max-height: 0;
+	overflow: hidden;
+	transition:max-height 0.2s ease-out;
+	}
+
+.panel a:first-child
+	{margin-top:5px;}
+
+.panel a
+	{margin-bottom:5px;}
+
+
+
+	/*-------style new blink anim----------------*/
+#new::after
+	{
+	content:"New!";
+	margin-left:20px;
+	padding:0 10px;
+	font-style:italic;
+	animation-name:newBlink;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+	float:right;
+	animation-timing-function: ease-in-out;
+	}
+@keyframes newBlink
+	{
+	from	{
+
+		font-weight:bold;
+		color:gold;
 		}
-	.right #search
-		{
-		flex:1;
-		margin-right:0
+	to	{
+
+		font-weight:bold;
+		color:red;
 		}
+	}
+	/*-------END style new blink anim------------*/
+/*---------------END Style accordion-----------------*/
 
-}
-
-@media (max-width: 350px) 
-{
-
-	.poemTitle hp3
-		{
-		font-size:2.5rem;
-		}
-	.poemTitle hp4
-		{
-		font-size:2.0rem;
-		}
-
-}
-
-@media (max-height: 600px)
-{
-	.main	{height:unset}
-}
-
-/*- Print only the Poem- */
-@media print
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE--------------------------*/
+/*---Styles for iPad and tablet screens--------------*/
+@media only screen and (max-width: 768px) 
 {
 .container
 	{
-	display:flex;
-	justify-content: center;
+	width:calc(100% - 20px);
+	min-height:400px;
 	}
-.mainbody
-	{justify-content: center;}
-.heading, .mainRightPoem, .webname, .mainRightLinks
-	{display:none;}
+}
+/*---END Styles for iPad and tablet screens----------*/
 
+/*---Styles for iPhone 4S landscape mode-------------*/
+/*---@media only screen and (max-width: 480px) ------*/
+@media only screen and (max-width: 615px) 
+{
+.container
+	{
+	height:unset;
+	}
+	/*-------Style main body---------------------*/
+.main
+	{
+	display:flex;
+	flex-direction:column;
+	height:unset;
+	}
+.mainLeft
+	{
+	width:100%;
+	height:350px;
+	margin-bottom:10px;
+	}
+.mainRight, #mainRightAbout
+	{
+	flex-direction:row;
+	width:100%;
+	}
+.mainRightTop, #mainRightAboutTop
+	{
+	flex-direction:column;
+	height:unset;
+	margin-bottom:0;
+	margin-right:10px;
+	width:150px;
+	}
+
+#btnPoem
+	{
+	width:unset;
+	margin-right:0;
+	margin-bottom:2px;
+	}
+#btnAuthor
+	{
+	width:unset;
+	margin-right:0;
+	margin-bottom:2px;
+	}
+#btnTopic
+	{
+	width:unset;
+	margin-left:0;
+	}
+	/*-------END Style main body-----------------*/
+	/*-------Style webname-----------------------*/
+.webname
+	{
+	height:unset;
+	}
+#webnameIframeBody
+	{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	height:auto;
+	}
+.webLeft
+	{
+	width:100%;
+	height:unset;
+	}
+.webRight
+	{
+	width:100%;
+	height:unset;
+	border-radius:5px;
+	}
+	/*-------END Style webname-------------------*/
+	/*-------Poem css----------------------------*/
+#mainPoem
+	{
+	flex-direction:column-reverse;
+	}
+#mainLeftPoem
+	{
+	width:100%;
+
+	}
+#mainRightPoem
+	{
+	flex-direction:row;
+	width:100%;
+	height:60px;
+	margin-bottom:10px;
+	}
+#btnP_Poem, #btnP_Author, #btnP_Topic
+	{
+	margin-right:2px;
+	}
+#btn_A_Author, #btn_A_Poem, #btn_A_Analysis
+	{
+	height:100%;
+	margin-right:2px;
+	}
+#btn_A_Related
+	{
+	height:100%;
+	}
+	/*-------END Poem css------------------------*/
+	/*-------About css---------------------------*/
+#mainLeftAbout
+	{
+	height:unset;
+	}
+
+	/*-------END About css-----------------------*/
+}
+/*---END Styles for iPhone 4S landscape mode---------*/
+
+/*---Styles for iPhone 4S landscape mode-------------*/
+@media only screen and (max-width: 480px)
+{
+.header	{
+	flex-direction:column;
+	height:80px;
+	}
+.headLeft, .headRight
+	{
+	justify-content:space-between;
+	width:100%;
+	height:40px;
+	}
+.headLeft button
+	{
+	width:50%;
+	}
+#searchIframe
+	{
+	width:50%;
+	}
+#btnSurprise
+	{
+	width:50%;
+	}
+#brtop, #br
+	{
+	font-size:1.2rem;
+	width:unset;
+	padding:0 10px 0 10px;
+	}
+}
+/*---END Styles for iPhone 4S landscape mode---------*/
+/*---Styles for xxx mode-----------------------------*/
+@media only screen and (max-width: 375px)
+{
+#btnprev, #btnnext
+	{
+	width:45px;
+	padding:0;
+	}
+#btnP_Poem, #btnP_Author, #btnP_Topic
+	{
+	padding:0 3px 0 3px;
+	}
+
+#btn_A_Author, #btn_A_Poem, #btn_A_Analysis, #btn_A_Related
+	{
+	font-size:2rem;
+	padding:0;
+	}
 }

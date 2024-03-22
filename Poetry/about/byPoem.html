@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Browse by Poem</title>
+	<title>
+Browse by Poem
+	</title>
    <link rel="stylesheet" href="../poetry.css">
-   <link rel="stylesheet" href="./about.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="../../Assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../../Assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../Assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="../../Assets/images/favicon/site.webmanifest">
-
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
 </head>
 <body>
 <!----------background---------->
 <div class="background">
 </div>
-<!----------background---------->
+<!----------END background------>
 <!----------container----------->
 <div class="container">
-	<!----------heading----------->
-	<div class="heading">
-		<div class="left">
-			<button id="b1"><a href="../Poetry.html">
-				Home
-			</a></button>
-			<button id="bm"><a href="./about.html">
-				About
-			</a></button>
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
 		</div>
-		<div class="right">
-			<button id="bm" onclick="openRandomPage()">
-				<a href=#>Surprise me!</a>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
+			</button>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
+			</button>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
 			</button>
 			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
 		</div>
-	</div>
-	<!----------END--------------->
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
 	<!----------webname----------->
-	<div class="webname">		<a href="../Poetry.html">
-		<h>Ars Poetica</h>	</a>
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
 	</div>
-	<!----------END--------------->
-	<!----------main-------------->
-	<div class="main">
-		<!----------poem of the day------------>
-		<div class="mainleft" style="height:unset;">
-			<div class="mainleftTitle">
-				<h6>Browse by Poem</h6>
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainAbout">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftAbout">
+			<div class="poemTitle" id="poemTitle">
+				<h6>
+					Browse by Poem
+				</h6>
 			</div>
-			<div id="contents">
+
+			<div class="aboutContent" id="aboutContent">
 				<table>
 					<tr>
 						<th onclick="sortTable(0)" id="sort">
@@ -62,7 +75,7 @@
 							Author</th>
 					</tr>
 <!---A Father's Prayer------>		<tr>	
-						<td><a href="../poems/A Father's Prayer.html"	id="new">
+						<td><a href="../poems/A Father's Prayer.html">
 							A Father's Prayer
 						</a></td>
 						<td><a href="../author/Edgar Albert Guest.html">
@@ -70,7 +83,7 @@
 						</a></td>
 					</tr>
 <!---A Man's Requirements------>	<tr>	
-						<td><a href="../poems/A Man's Requirements.html"	id="new">
+						<td><a href="../poems/A Man's Requirements.html">
 							A Man's Requirements
 						</a></td>
 						<td><a href="../author/Elizabeth Barrett Browning.html">
@@ -133,6 +146,14 @@
 							Edgar Albert Guest
 						</a></td>
 					</tr>
+<!---Courage-JS-------->		<tr>
+						<td><a href="../poems/Courage_JS.html"	id="new">
+							Courage
+						</a></td>
+						<td><a href="../author/Anne Sexton.html">
+							Anne Sexton
+						</a></td>
+					</tr>
 <!---Deep-sea Soundings---->		<tr>
 						<td><a href="../poems/Deep-sea Soundings.html">
 							Deep-sea Soundings
@@ -142,7 +163,7 @@
 						</a></td>
 					</tr>
 <!---Denouement Villanelle---->		<tr>
-						<td><a href="../poems/Denouement Villanelle.html" 	id="new">
+						<td><a href="../poems/Denouement Villanelle.html" >
 							Denouement Villanelle
 						</a></td>
 						<td><a href="../author/Sylvia Plath.html">
@@ -179,6 +200,30 @@
 						</a></td>
 						<td><a href="../author/Robert Frost.html">
 							Robert Frost
+						</a></td>
+					</tr>
+<!---For the Traveler---->		<tr>
+						<td><a href="../poems/For the Traveler.html"	id="new">
+							For the Traveler
+						</a></td>
+						<td><a href="../author/John O’Donohue.html">
+							John O’Donohue
+						</a></td>
+					</tr>
+<!---Freedom---->			<tr>
+						<td><a href="../poems/Freedom.html"	id="new">
+							Freedom
+						</a></td>
+						<td><a href="../author/Olive Runner.html">
+							Olive Runner
+						</a></td>
+					</tr>
+<!---Go to the Limits..---->		<tr>
+						<td><a href="../poems/Go to the Limits of Your Longing.html"	id="new">
+							Go to the Limits of Your Longing
+						</a></td>
+						<td><a href="../author/Rainer Maria Rilke.html">
+							Rainer Maria Rilke
 						</a></td>
 					</tr>
 <!---Have You Earned....---->		<tr>
@@ -218,7 +263,7 @@
 							I Do Not Love You Except Because I Love You
 						</a></td>
 						<td><a href="../author/Pablo Neruda.html">
-							EPablo Neruda
+							Pablo Neruda
 						</a></td>
 					</tr>
 <!---I Love You---->			<tr>
@@ -227,6 +272,14 @@
 						</a></td>
 						<td><a href="../author/Ella Wheeler Wilcox.html">
 							Ella Wheeler Wilcox
+						</a></td>
+					</tr>
+<!---I Want To Be---->			<tr>
+						<td><a href="../poems/I Want To Be.html"	id="new">
+							I Want To Be
+						</a></td>
+						<td><a href="../author/Deshaun Roberts.html">
+							Deshaun Roberts
 						</a></td>
 					</tr>
 <!---If---->				<tr>
@@ -349,6 +402,22 @@
 							Katy A. Brown
 						</a></td>
 					</tr>
+<!---Perfect Woman---->			<tr>
+						<td><a href="../poems/Perfect Woman.html"	id="new">
+							Perfect Woman
+						</a></td>
+						<td><a href="../author/William Wordsworth.html">
+							William Wordsworth
+						</a></td>
+					</tr>
+<!---Provisions---->			<tr>
+						<td><a href="../poems/Provisions.html"	id="new">
+							Provisions
+						</a></td>
+						<td><a href="../author/Margaret Atwood.html">
+							Margaret Atwood
+						</a></td>
+					</tr>
 <!---Remember------->			<tr>
 						<td><a href="../poems/Remember.html">
 							Remember
@@ -358,7 +427,7 @@
 						</a></td>
 					</tr>
 <!---Sea Fever------------>		<tr>
-						<td><a href="../poems/Sea Fever.html"	id="new">
+						<td><a href="../poems/Sea Fever.html">
 							Sea Fever
 						</a></td>
 						<td><a href="../author/John Masefield.html">
@@ -437,8 +506,16 @@
 							Edgar Allan Poe
 						</a></td>
 					</tr>
+<!---The Comfort Zone---->		<tr>
+						<td><a href="../poems/The Comfort Zone.html"	id="new">
+							The Comfort Zone
+						</a></td>
+						<td><a href="../author/Anna J Magee.html">
+							Anna J. Magee
+						</a></td>
+					</tr>
 <!---The Guy in the Glass---->		<tr>
-						<td><a href="../poems/The Guy in the Glass.html"	id="new">
+						<td><a href="../poems/The Guy in the Glass.html">
 							The Guy in the Glass
 						</a></td>
 						<td><a href="../author/Dale Wimbrow.html">
@@ -478,7 +555,7 @@
 						</a></td>
 					</tr>
 <!---The Spring And The Fall-->		<tr>
-						<td><a href="../poems/The Spring And The Fall.html"	id="new">
+						<td><a href="../poems/The Spring And The Fall.html">
 							The Spring And The Fall
 						</a></td>
 						<td><a href="../author/Edna St Vincent Millay.html">
@@ -525,6 +602,14 @@
 							Edgar Albert Guest
 						</a></td>
 					</tr>
+<!---Travel---->		<tr>
+						<td><a href="../poems/Travel.html"	id="new">
+							Travel
+						</a></td>
+						<td><a href="../author/Edna St Vincent Millay.html">
+							Edna St. Vincent Millay
+						</a></td>
+					</tr>
 <!---Untitled---->			<tr>
 						<td><a href="../poems/Untitled.html">
 							Untitled
@@ -542,14 +627,14 @@
 						</a></td>
 					</tr>
 <!---What Life Should Be---->		<tr>
-						<td><a href="../poems/What Life Should Be.html" id="new">
+						<td><a href="../poems/What Life Should Be.html">
 							What Life Should Be
 						</a></td>
 						<td><a href="../author/Patricia A Fleming.html">
 							Patricia A. Fleming
 						</a></td>
 <!---What Lips My Lips...---->		<tr>
-						<td><a href="../poems/What Lips My Lips Have Kissed.html" id="new">
+						<td><a href="../poems/What Lips My Lips Have Kissed.html">
 							What Lips My Lips Have Kissed
 						</a></td>
 						<td><a href="../author/Edna St Vincent Millay.html">
@@ -569,21 +654,21 @@
 				</table>
 			</div>
 		</div>
-		<!----------END------------------------>
-		<!----------quote of the day----------->
-		<div class="mainright">
-			<div class="mainrighttop">
-				<button id="b1"><a href="./byPoem.html">
-					Browse by Poem
-				</a></button>
-				<button id="bm2"><a href="./byAuthor.html">
-					Browse by Author
-				</a></button>
-				<button id="b1"><a href="./byTopic.html">
-					Browse by Topic
-				</a></button>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightAbout">
+			<!---right top-------------->
+			<div class="mainRightAboutTop" id="mainRightAboutTop">
+				<button id="btnPoem" onclick="window.location.href='../about/byPoem.html';">
+					</button>
+				<button id="btnAuthor" onclick="window.location.href='../about/byAuthor.html';">
+					</button>
+				<button id="btnTopic" onclick="window.location.href='../about/byTopic.html';">
+					</button>
 			</div>
-			<div class="mainrightquote">
+			<!---END right top---------->
+			<!---right bot-------------->
+			<div class="mainRightAboutBot" id="mainRightAboutBot">
 				<div class="mainrightTitle">
 					<h6>Other Topics</h6>
 				</div>
@@ -600,15 +685,18 @@
 						Poetry in Movies		</a></hp6>		
 				</div>
 			</div>
+			<!---END right bot---------->
 		</div>
-		<!----------END------------------------>
+		<!----------END Main right---->
 	</div>
+	<!----------END Main body----->
 </div>
-<!----------container----------->
+<!----------END container------->   
 
 <script src="../poems/surpriseMe.js"></script>
 <script src="../searchPoem.js"></script>
 <script src="../poetry.js"></script>
+
 
 </body>
 </html>
