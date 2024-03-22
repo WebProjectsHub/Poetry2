@@ -1,66 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Be The Best Of Whatever You Are</title>
+	<title>
+Be The Best Of Whatever You Are
+	</title>
    <link rel="stylesheet" href="../poetry.css">
-   <link rel="stylesheet" href="poem.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="../../Assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../../Assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../Assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="../../Assets/images/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<style>
-
-</style>
 <body>
 <!----------background---------->
 <div class="background">
 </div>
-<!----------background---------->
+<!----------END background------>
 <!----------container----------->
 <div class="container">
-	<!----------heading----------->
-	<div class="heading">
-		<div class="left">
-			<button id="b1"><a href="../Poetry.html">
-				Home
-			</a></button>
-			<button id="bm"><a href="../about/about.html">
-				About
-			</a></button>
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
 		</div>
-		<div class="right">
-			<button id="bprev" class="material-symbols-outlined"
-					title="Previous"
-					onclick="prevPage()">
-				<a href=#>arrow_back</a>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
 			</button>
-			<button id="bm" onclick="openRandomPage()">
-				<a href=#>Surprise me!</a>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
 			</button>
-			<button id="bnext" class="material-symbols-outlined"
-					title="Next"
-					onclick="nextPage()">
-				<a href=#>arrow_forward</a>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
 			</button>
 			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
 		</div>
-	</div>
-	<!----------END--------------->
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
 	<!----------webname----------->
-	<div class="webname">		<a href="../Poetry.html">
-		<h>Ars Poetica</h>	</a>
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
 	</div>
-	<!----------END--------------->
-	<!----------main-------------->
-	<div class="mainbody">
-		<!----------main poem------------>
-		<div class="mainPoem" id="mainPoem">
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainPoem">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftPoem">
 			<div class="poemTitle" id="poemTitle">
 				<hp2>
 					Be The Best Of Whatever You Are
@@ -95,51 +94,39 @@
 				</hp5>
 			</div>
 		</div>
-		<!----------END------------------------>
-		<!----------quote of the day----------->
-		<div class="mainRightPoem">
-			<div class="mainRightLinks">
-				<button id="bt"><a href="../about/byPoem.html">
-					Browse by Poem
-				</a></button>
-				<button id="bh"><a href="../about/byAuthor.html">
-					Browse by Author
-				</a></button>
-				<button id="bh"><a href="../about/byTopic.html">
-					Browse by Topic
-				</a></button>
-				<br><br>
-					<button	id="bh" class="material-symbols-outlined"
-						id="b2" title="About the Author">
-						<a href="../author/Douglas Malloch.html">
-						person
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined" 
-						id="b2" title="About the Poem">
-						<a href="../poemAnalysis/About_Be The Best Of Whatever You Are.html">
-						wysiwyg
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined"
-						id="b2" title="Analysis">
-						<a href="../poemAnalysis/Analysis_Be The Best Of Whatever You Are.html">
-						lightbulb
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined"
-					id="b2" title="Related">
-						<a href="../poemAnalysis/Related_Be The Best Of Whatever You Are.html">
-						dynamic_feed
-					</a></button>
-			</div>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightPoem">
+			<button id="btnP_Poem" onclick="window.location.href='../about/byPoem.html';">
+				</button>
+			<button id="btnP_Author" onclick="window.location.href='../about/byAuthor.html';">
+				</button>
+			<button id="btnP_Topic" onclick="window.location.href='../about/byTopic.html';">
+				</button>
 
+			<button	id="btn_A_Author" class="material-symbols-outlined"
+					title="About the Author" onclick="window.location.href='../author/Douglas Malloch.html';">
+				</a></button>
+			<button	id="btn_A_Poem" class="material-symbols-outlined" 
+				title="About the Poem" onclick="window.location.href='../poemAnalysis/About_Be The Best Of Whatever You Are.html';">
+				</a></button>
+			<button	id="btn_A_Analysis" class="material-symbols-outlined"
+				title="Analysis" onclick="window.location.href='../poemAnalysis/Analysis_Be The Best Of Whatever You Are.html';">
+				</a></button>
+			<button	id="btn_A_Related" class="material-symbols-outlined"
+				title="Related" onclick="window.location.href='../poemAnalysis/Related_Be The Best Of Whatever You Are.html';">
+			</a></button>
 		</div>
-		<!----------END------------------------>
+		<!----------END Main right---->
 	</div>
+	<!----------END Main body----->
 </div>
-<!----------container----------->
+<!----------END container------->   
 
-<script src="./surpriseMe.js"></script>
+
 <script src="../searchPoem.js"></script>
-<script src="../poetry.js"></script>
+<script src="surpriseMe.js"></script>
+
 
 </body>
 </html>

@@ -1,66 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Deep-sea Soundings</title>
+	<title>
+Deep-sea Soundings
+	</title>
    <link rel="stylesheet" href="../poetry.css">
-   <link rel="stylesheet" href="poem.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="../../Assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../../Assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../Assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="../../Assets/images/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<style>
-
-</style>
 <body>
 <!----------background---------->
 <div class="background">
 </div>
-<!----------background---------->
+<!----------END background------>
 <!----------container----------->
 <div class="container">
-	<!----------heading----------->
-	<div class="heading">
-		<div class="left">
-			<button id="b1"><a href="../Poetry.html">
-				Home
-			</a></button>
-			<button id="bm"><a href="../about/about.html">
-				About
-			</a></button>
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
 		</div>
-		<div class="right">
-			<button id="bprev" class="material-symbols-outlined"
-					title="Previous"
-					onclick="prevPage()">
-				<a href=#>arrow_back</a>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
 			</button>
-			<button id="bm" onclick="openRandomPage()">
-				<a href=#>Surprise me!</a>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
 			</button>
-			<button id="bnext" class="material-symbols-outlined"
-					title="Next"
-					onclick="nextPage()">
-				<a href=#>arrow_forward</a>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
 			</button>
 			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
 		</div>
-	</div>
-	<!----------END--------------->
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
 	<!----------webname----------->
-	<div class="webname">		<a href="../Poetry.html">
-		<h>Ars Poetica</h>	</a>
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
 	</div>
-	<!----------END--------------->
-	<!----------main-------------->
-	<div class="mainbody">
-		<!----------main poem------------>
-		<div class="mainPoem" id="mainPoem">
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainPoem">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftPoem">
 			<div class="poemTitle" id="poemTitle">
 				<hp2>
 					Deep-sea Soundings
@@ -68,99 +67,87 @@
 			</div>
 			<div class="poemAuthor" id="poemAuthor">
 				<hp5><a href="../author/Sarah Williams.html">
-					Sarah Williams 
+					Sarah Williams
 				</a></hp5>
 			</div>
 			<div class="poemContent" id="poemContent">
 				<hp5>
-MARINER, what of the deep?						<br>
-&emsp;	This of the deep:						<br>
-Twilight is there, and solemn, changeless calm;				<br>
-Beauty is there, and tender healing balm—				<br>
-Balm with no root in earth, or air, or sea,  				<br>    
-Poised by the finger of God, it floateth free,				<br>
-And, as it threads the waves, the sound doth rise,—			<br>
-Hither shall come no further sacrifice;					<br>
-Never again the anguished clutch at life,				<br>
-Never again great Love and Death in strife;				<br>      
-He who hath suffered all, need fear no more,				<br>
-Quiet his portion now, for evermore.					<br><br>
+<div>	MARINER, what of the deep?						</div>
+<div>	&emsp;	This of the deep:						</div>
+<div>	Twilight is there, and solemn, changeless calm;				</div>
+<div>	Beauty is there, and tender healing balm—				</div>
+<div>	Balm with no root in earth, or air, or sea,  				</div>    
+<div>	Poised by the finger of God, it floateth free,				</div>
+<div>	And, as it threads the waves, the sound doth rise,—			</div>
+<div>	Hither shall come no further sacrifice;					</div>
+<div>	Never again the anguished clutch at life,				</div>
+<div>	Never again great Love and Death in strife;				</div>      
+<div>	He who hath suffered all, need fear no more,				</div>
+<div>	Quiet his portion now, for evermore.					</div><br>
 
-Mariner, what of the deep?						<br>
-&emsp;	This of the deep:						<br>
-Solitude dwells not there, though silence reign;			<br>      
-Mighty the brotherhood of loss and pain;				<br>
-There is communion past the need of speech,				<br>
-There is a love no words of love can reach;				<br>
-Heavy the waves that superincumbent press,				<br>
-But as we labour here with constant stress,				<br>      
-Hand doth hold out to hand not help alone,				<br>
-But the deep bliss of being fully known.				<br>
-There are no kindred like the kin of sorrow,				<br>
-There is no hope like theirs who fear no morrow.			<br><br>
+<div>	Mariner, what of the deep?						</div>
+<div>	&emsp;	This of the deep:						</div>
+<div>	Solitude dwells not there, though silence reign;			</div>      
+<div>	Mighty the brotherhood of loss and pain;				</div>
+<div>	There is communion past the need of speech,				</div>
+<div>	There is a love no words of love can reach;				</div>
+<div>	Heavy the waves that superincumbent press,				</div>
+<div>	But as we labour here with constant stress,				</div>      
+<div>	Hand doth hold out to hand not help alone,				</div>
+<div>	But the deep bliss of being fully known.				</div>
+<div>	There are no kindred like the kin of sorrow,				</div>
+<div>	There is no hope like theirs who fear no morrow.			</div><br>
 
-Mariner, what of the deep?     						<br> 
-&emsp;	This of the deep:						<br>
-Though we have travelled past the line of day,				<br>
-Glory of night doth light us on our way,				<br>
-Radiance that comes we know not how nor whence,				<br>
-Rainbows without the rain, past duller sense,				<br>      
-Music of hidden reefs and waves long past,				<br>
-Thunderous organ tones from far-off blast,				<br>
-Harmony, victrix, throned in state sublime,				<br>
-Couched on the wrecks be-gemmed with pearls of time;			<br>
-Never a wreck but brings some beauty here;   				<br>   
-Down where the waves are stilled the sea shines clear;			<br>
-Deeper than life the plan of life doth lie,				<br>
-He who knows all, fears naught. Great Death shall die.			<br>
+<div>	Mariner, what of the deep?     						</div> 
+<div>	&emsp;	This of the deep:						</div>
+<div>	Though we have travelled past the line of day,				</div>
+<div>	Glory of night doth light us on our way,				</div>
+<div>	Radiance that comes we know not how nor whence,				</div>
+<div>	Rainbows without the rain, past duller sense,				</div>      
+<div>	Music of hidden reefs and waves long past,				</div>
+<div>	Thunderous organ tones from far-off blast,				</div>
+<div>	Harmony, victrix, throned in state sublime,				</div>
+<div>	Couched on the wrecks be-gemmed with pearls of time;			</div>
+<div>	Never a wreck but brings some beauty here;   				</div>   
+<div>	Down where the waves are stilled the sea shines clear;			</div>
+<div>	Deeper than life the plan of life doth lie,				</div>
+<div>	He who knows all, fears naught. Great Death shall die.			</div><br>
 				</hp5>
 			</div>
 		</div>
-		<!----------END------------------------>
-		<!----------quote of the day----------->
-		<div class="mainRightPoem">
-			<div class="mainRightLinks">
-				<button id="bt"><a href="../about/byPoem.html">
-					Browse by Poem
-				</a></button>
-				<button id="bh"><a href="../about/byAuthor.html">
-					Browse by Author
-				</a></button>
-				<button id="bh"><a href="../about/byTopic.html">
-					Browse by Topic
-				</a></button>
-				<br><br>
-					<button	id="bh" class="material-symbols-outlined"
-						id="b2" title="About the Author">
-						<a href="../author/Sarah Williams.html">
-						person
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined" 
-						id="b2" title="About the Poem">
-						<a href="../poemAnalysis/About_Deep-sea Soundings.html">
-						wysiwyg
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined"
-						id="b2" title="Analysis">
-						<a href="../poemAnalysis/Analysis_Deep-sea Soundings.html">
-						lightbulb
-					</a></button>
-					<button	id="bh" class="material-symbols-outlined"
-					id="b2" title="Related">
-						<a href="../poemAnalysis/Related_Deep-sea Soundings.html">
-						dynamic_feed
-					</a></button>
-			</div>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightPoem">
+			<button id="btnP_Poem" onclick="window.location.href='../about/byPoem.html';">
+				</button>
+			<button id="btnP_Author" onclick="window.location.href='../about/byAuthor.html';">
+				</button>
+			<button id="btnP_Topic" onclick="window.location.href='../about/byTopic.html';">
+				</button>
 
+			<button	id="btn_A_Author" class="material-symbols-outlined"
+					title="About the Author" onclick="window.location.href='../author/Sarah Williams.html';">
+				</a></button>
+			<button	id="btn_A_Poem" class="material-symbols-outlined" 
+				title="About the Poem" onclick="window.location.href='../poemAnalysis/About_Deep-sea Soundings.html';">
+				</a></button>
+			<button	id="btn_A_Analysis" class="material-symbols-outlined"
+				title="Analysis" onclick="window.location.href='../poemAnalysis/Analysis_Deep-sea Soundings.html';">
+				</a></button>
+			<button	id="btn_A_Related" class="material-symbols-outlined"
+				title="Related" onclick="window.location.href='../poemAnalysis/Related_Deep-sea Soundings.html';">
+			</a></button>
 		</div>
-		<!----------END------------------------>
+		<!----------END Main right---->
 	</div>
+	<!----------END Main body----->
 </div>
-<!----------container----------->
+<!----------END container------->   
 
-<script src="./surpriseMe.js"></script>
+
 <script src="../searchPoem.js"></script>
-<script src="../poetry.js"></script>
+<script src="surpriseMe.js"></script>
+
 
 </body>
 </html>
