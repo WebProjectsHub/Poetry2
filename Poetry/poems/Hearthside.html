@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+Hearthside
+	</title>
+   <link rel="stylesheet" href="../poetry.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!----------background---------->
+<div class="background">
+</div>
+<!----------END background------>
+<!----------container----------->
+<div class="container">
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
+		</div>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
+			</button>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
+			</button>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
+			</button>
+			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
+		</div>
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
+	<!----------webname----------->
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
+	</div>
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainPoem">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftPoem">
+			<div class="poemTitle" id="poemTitle">
+				<hp2>
+					Hearthside
+				</hp2>
+			</div>
+			<div class="poemAuthor" id="poemAuthor">
+				<hp5><a href="../author/Dorothy Parker.html">
+					Dorothy Parker
+				</a></hp5>
+			</div>
+			<div class="poemContent" id="poemContent">
+				<hp5>
+<div>	Half across the world from me		</div>
+<div>	Lie the lands I'll never see—		</div>
+<div>	I, whose longing lives and dies		</div>
+<div>	Where a ship has sailed away;		</div>
+<div>	I, that never close my eyes		</div>
+<div>	But to look upon Cathay.		</div><br>
+
+<div>	Things I may not know nor tell		</div>
+<div>	Wait, where older waters swell;		</div>
+<div>	Ways that flowered at Sappho’s tread,	</div>
+<div>	Winds that sighed in Homer’s strings,	</div>
+<div>	Vibrant with the singing dead,		</div>
+<div>	Golden with the dust of wings.		</div><br>
+
+<div>	Under deeper skies than mine,		</div>
+<div>	Quiet valleys dip and shine.		</div>
+<div>	Where their tender grasses heal		</div>
+<div>	Ancient scars of trench and tomb	</div>
+<div>	I shall never walk: nor kneel		</div>
+<div>	Where the bones of poets bloom.		</div><br>
+
+<div>	If I seek a lovelier part,		</div>
+<div>	Where I travel goes my heart;		</div>
+<div>	Where I stray my thought must go;	</div>
+<div>	With me wanders my desire.		</div>
+<div>	Best to sit and watch the snow,		</div>
+<div>	Turn the lock, and poke the fire.	</div><br>
+				</hp5>
+			</div>
+		</div>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightPoem">
+			<button id="btnP_Poem" onclick="window.location.href='../about/byPoem.html';">
+				</button>
+			<button id="btnP_Author" onclick="window.location.href='../about/byAuthor.html';">
+				</button>
+			<button id="btnP_Topic" onclick="window.location.href='../about/byTopic.html';">
+				</button>
+
+			<button	id="btn_A_Author" class="material-symbols-outlined"
+					title="About the Author" onclick="window.location.href='../author/Dorothy Parker.html';">
+				</a></button>
+			<button	id="btn_A_Poem" class="material-symbols-outlined" 
+				title="About the Poem" onclick="window.location.href='../poemAnalysis/About_Hearthside.html';">
+				</a></button>
+			<button	id="btn_A_Analysis" class="material-symbols-outlined"
+				title="Analysis" onclick="window.location.href='../poemAnalysis/Analysis_Hearthside.html';">
+				</a></button>
+			<button	id="btn_A_Related" class="material-symbols-outlined"
+				title="Related" onclick="window.location.href='../poemAnalysis/Related_Hearthside.html';">
+			</a></button>
+		</div>
+		<!----------END Main right---->
+	</div>
+	<!----------END Main body----->
+</div>
+<!----------END container------->   
+
+
+<script src="../searchPoem.js"></script>
+<script src="surpriseMe.js"></script>
+
+
+</body>
+</html>
