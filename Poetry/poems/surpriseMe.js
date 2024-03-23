@@ -73,6 +73,7 @@ var urls3 =
 	"../poems/What Life Should Be.html",
 	"../poems/What Lips My Lips Have Kissed.html",
 	"../poems/Wild nights - Wild nights.html",
+	"../poems/You Start Dying Slowly.html",
 	"../poems/You Took Away My Innocence.html"
 	];
 
@@ -170,6 +171,7 @@ var pages =
 	"../poems/What Life Should Be.html",
 	"../poems/What Lips My Lips Have Kissed.html",
 	"../poems/Wild nights - Wild nights.html",
+	"../poems/You Start Dying Slowly.html",
 	"../poems/You Took Away My Innocence.html"
 	];
 function nextPage() 
