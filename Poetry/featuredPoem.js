@@ -71,6 +71,7 @@ var urls2 = [
 	"./featured/What Life Should Be.html",
 	"./featured/What Lips My Lips Have Kissed.html",
 	"./featured/Wild nights - Wild nights.html",
+	"./featured/You Start Dying Slowly.html",
 	"./featured/You Took Away My Innocence.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
