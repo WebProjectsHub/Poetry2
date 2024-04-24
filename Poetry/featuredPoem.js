@@ -1,10 +1,12 @@
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/A Child Of Mine.html",
 	"./featured/A Father's Prayer.html",
 	"./featured/A Man's Requirements.html",
 	"./featured/A Prayer.html",
 	"./featured/Advice To A Son.html",
 	"./featured/An Empty Meadow.html",
+	"./featured/Are You There.html",
 	"./featured/Be The Best Of Whatever You Are.html",
 	"./featured/Because I Could Not Stop for Death.html",
 	"./featured/Calypso.html",
@@ -16,6 +18,7 @@ var urls2 = [
 	"./featured/Do Not Go Gentle Into That Good Night.html",
 	"./featured/Faith.html",
 	"./featured/Fire and Ice.html",
+	"./featured/For My Daughter.html",
 	"./featured/For the Traveler.html",
 	"./featured/Freedom.html",
 	"./featured/Go to the Limits of Your Longing.html",
@@ -68,6 +71,7 @@ var urls2 = [
 	"./featured/The Visitor.html",
 	"./featured/Time Does Not Bring Relief; You All Have Lied.html",
 	"./featured/To A Little Girl.html",
+	"./featured/To My Daughter, With Love.html",
 	"./featured/Travel.html",
 	"./featured/Untitled.html",
 	"./featured/What Life Should Be.html",

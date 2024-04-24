@@ -2,11 +2,13 @@
 // An array of random URLs
 var urls3 = 
 	[
+	"./poems/A Child Of Mine.html",
 	"./poems/A Father's Prayer.html",
 	"./poems/A Man's Requirements.html",
 	"./poems/A Prayer.html",
 	"./poems/Advice To A Son.html",
 	"./poems/An Empty Meadow.html",
+	"./poems/Are You There.html",
 	"./poems/Be The Best Of Whatever You Are.html",
 	"./poems/Because I Could Not Stop for Death.html",
 	"./poems/Calypso.html",
@@ -18,6 +20,7 @@ var urls3 =
 	"./poems/Do Not Go Gentle Into That Good Night.html",
 	"./poems/Faith.html",
 	"./poems/Fire and Ice.html",
+	"./poems/For My Daughter.html",
 	"./poems/For the Traveler.html",
 	"./poems/Freedom.html",
 	"./poems/Go to the Limits of Your Longing.html",
@@ -70,6 +73,7 @@ var urls3 =
 	"./poems/The Visitor.html",
 	"./poems/Time Does Not Bring Relief; You All Have Lied.html",
 	"./poems/To A Little Girl.html",
+	"./poems/To My Daughter, With Love.html",
 	"./poems/Travel.html",
 	"./poems/Untitled.html",
 	"./poems/What Life Should Be.html",
