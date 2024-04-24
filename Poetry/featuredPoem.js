@@ -78,7 +78,8 @@ var urls2 = [
 	"./featured/What Lips My Lips Have Kissed.html",
 	"./featured/Wild nights - Wild nights.html",
 	"./featured/You Start Dying Slowly.html",
-	"./featured/You Took Away My Innocence.html"
+	"./featured/You Took Away My Innocence.html",
+	"./featured/You Were Born with Potential.html"
 	];
 var myIframe2 = document.getElementById("poemIframe");
 function displayRandomFile2() 

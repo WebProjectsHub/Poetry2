@@ -80,7 +80,8 @@ var urls3 =
 	"./poems/What Lips My Lips Have Kissed.html",
 	"./poems/Wild nights - Wild nights.html",
 	"./poems/You Start Dying Slowly.html",
-	"./poems/You Took Away My Innocence.html"
+	"./poems/You Took Away My Innocence.html",
+	"./poems/You Were Born with Potential.html"
 	];
 
 // A function to get a random URL from the array
