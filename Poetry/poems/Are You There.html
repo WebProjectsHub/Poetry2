@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+Are You There
+	</title>
+   <link rel="stylesheet" href="../poetry.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="../Assets/images/favicon/site.webmanifest">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!----------background---------->
+<div class="background">
+</div>
+<!----------END background------>
+<!----------container----------->
+<div class="container">
+	<!----------header------------>
+	<div class="header">
+		<!----------header left------------->
+		<div class="headLeft">
+			<button id="btnHome" onclick="window.location.href='../Poetry.html';">
+				</a></button>
+			<button id="btnAbout" onclick="window.location.href='../about/about.html';">
+				</a></button>
+		</div>
+		<!----------END header left--------->
+		<!----------header right------------>
+		<div class="headRight">
+			<button	 id="btnprev" class="material-symbols-outlined"
+					title="Previous" onclick="prevPage()">
+				<a href=#></a>
+			</button>
+			<button id="btnSurprise" onclick="openRandomPage()" id="bx">
+				<a></a>
+			</button>
+			<button id="btnnext" class="material-symbols-outlined"
+					title="Next" onclick="nextPage()">
+				<a href=#></a>
+			</button>
+			<iframe id="searchIframe" scrolling="no" src="../search.html"></iframe>
+		</div>
+<!----------END header right-------->
+	</div>	
+	<!----------END header-------->
+	<!----------webname----------->
+	<div class="webname">
+		<iframe src="../webname.html" title="webname" scrolling="no" id="webnameIframe">
+		</iframe>
+	</div>
+	<!----------END webname------->
+	<!----------Main body--------->
+	<div class="main" id="mainPoem">
+		<!----------Main left--------->
+		<div class="mainLeft" id="mainLeftPoem">
+			<div class="poemTitle" id="poemTitle">
+				<hp2>
+					Are You There?
+				</hp2>
+			</div>
+			<div class="poemAuthor" id="poemAuthor">
+				<hp5><a href="../author/Wystan Hugh Auden.html">
+					Wystan Hugh Auden
+				</a></hp5>
+			</div>
+			<div class="poemContent" id="poemContent">
+				<hp5>
+<div>	Each lover has some theory of his own			</div>
+<div>	About the difference between the ache			</div>
+<div>	Of being with his love, and being alone:		</div><br>
+
+<div>	Why what, when dreaming, is dear flesh and bone		</div>
+<div>	That really stirs the senses, when awake,		</div>
+<div>	Appears a simulacrum of his own.			</div><br>
+
+<div>	Narcissus disbelieves in the unknown;			</div>
+<div>	He cannot join his image in the lake			</div>
+<div>	So long as he assumes he is alone.			</div><br>
+
+<div>	The child, the waterfall, the fire, the stone,		</div>
+<div>	Are always up to mischief, though, and take		</div>
+<div>	The universe for granted as their own.			</div><br>
+
+<div>	The elderly, like Proust, are always prone		</div>
+<div>	To think of love as a subjective fake;			</div>
+<div>	The more they love, the more they feel alone.		</div><br>
+
+<div>	Whatever view we hold, it must be shown			</div>
+<div>	Why every lover has a wish to make			</div>
+<div>	Some kind of otherness his own:				</div>
+<div>	Perhaps, in fact, we never are alone.			</div><br>
+				</hp5>
+			</div>
+		</div>
+		<!----------END Main left----->
+		<!----------Main right-------->
+		<div class="mainRight" id="mainRightPoem">
+			<button id="btnP_Poem" onclick="window.location.href='../about/byPoem.html';">
+				</button>
+			<button id="btnP_Author" onclick="window.location.href='../about/byAuthor.html';">
+				</button>
+			<button id="btnP_Topic" onclick="window.location.href='../about/byTopic.html';">
+				</button>
+
+			<button	id="btn_A_Author" class="material-symbols-outlined"
+					title="About the Author" onclick="window.location.href='../author/Wystan Hugh Auden.html';">
+				</a></button>
+			<button	id="btn_A_Poem" class="material-symbols-outlined" 
+				title="About the Poem" onclick="window.location.href='../poemAnalysis/About_Are You There.html';">
+				</a></button>
+			<button	id="btn_A_Analysis" class="material-symbols-outlined"
+				title="Analysis" onclick="window.location.href='../poemAnalysis/Analysis_Are You There.html';">
+				</a></button>
+			<button	id="btn_A_Related" class="material-symbols-outlined"
+				title="Related" onclick="window.location.href='../poemAnalysis/Related_Are You There.html';">
+			</a></button>
+		</div>
+		<!----------END Main right---->
+	</div>
+	<!----------END Main body----->
+</div>
+<!----------END container------->   
+
+
+<script src="../searchPoem.js"></script>
+<script src="surpriseMe.js"></script>
+
+
+</body>
+</html>
