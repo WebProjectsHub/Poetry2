@@ -2,6 +2,7 @@
 // An array of random URLs
 var urls3 = 
 	[
+	"../poems/A Birthday.html",
 	"../poems/A Child Of Mine.html",
 	"../poems/A Father's Prayer.html",
 	"../poems/A Man's Requirements.html",
@@ -107,6 +108,7 @@ function openRandomPage()
 // function to display next file
 var pages = 
 	[
+	"../poems/A Birthday.html",
 	"../poems/A Child Of Mine.html",
 	"../poems/A Father's Prayer.html",
 	"../poems/A Man's Requirements.html",
@@ -165,6 +167,7 @@ var pages =
 	"../poems/Sonnet VII.html",
 	"../poems/Still I Rise.html",
 	"../poems/Stopping by Woods on a Snowy Evening.html",
+	"../poems/Sweet Sixteen.html",
 	"../poems/The Bells.html",
 	"../poems/The Comfort Zone.html",
 	"../poems/The Guy in the Glass.html",
