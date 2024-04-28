@@ -1,5 +1,6 @@
 //--featured poem--------------*//
 var urls2 = [
+	"./featured/A Birthday.html",
 	"./featured/A Child Of Mine.html",
 	"./featured/A Father's Prayer.html",
 	"./featured/A Man's Requirements.html",
@@ -58,6 +59,7 @@ var urls2 = [
 	"./featured/Sonnet VII.html",
 	"./featured/Still I Rise.html",
 	"./featured/Stopping by Woods on a Snowy Evening.html",
+	"..featured/Sweet Sixteen.html",
 	"./featured/The Bells.html",
 	"./featured/The Comfort Zone.html",
 	"./featured/The Guy in the Glass.html",
